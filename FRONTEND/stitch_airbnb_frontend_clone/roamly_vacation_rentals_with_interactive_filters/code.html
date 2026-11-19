@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-tertiary-fixed-variant":"#004f52","primary-fixed":"#ffdada","on-secondary-fixed":"#40000b","secondary-fixed":"#ffdada","on-primary-fixed":"#40000d","error":"#ba1a1a","on-primary":"#ffffff","primary-fixed-dim":"#ffb2b6","on-background":"#1b1c1c","on-tertiary-container":"#f3ffff","tertiary-fixed":"#91f2f7","secondary-container":"#e51344","secondary":"#ba0033","inverse-surface":"#303030","surface-container-lowest":"#ffffff","inverse-primary":"#ffb2b6","on-primary-container":"#fffbff","surface-tint":"#be0038","on-tertiary":"#ffffff","surface-bright":"#fcf9f8","on-tertiary-fixed":"#002021","inverse-on-surface":"#f3f0ef","surface-container-low":"#f6f3f2","secondary-fixed-dim":"#ffb3b5","on-secondary":"#ffffff","surface-container":"#f0eded","background":"#fcf9f8","primary":"#ba0036","surface":"#fcf9f8","on-error-container":"#93000a","tertiary-fixed-dim":"#74d6db","tertiary":"#00676b","primary-container":"#e21e4a","surface-variant":"#e5e2e1","on-primary-fixed-variant":"#920029","on-secondary-container":"#fffbff","surface-dim":"#dcd9d9","outline-variant":"#e5bdbe","on-error":"#ffffff","surface-container-highest":"#e5e2e1","on-surface-variant":"#5c3f41","tertiary-container":"#008287","on-secondary-fixed-variant":"#920026","outline":"#906f70","error-container":"#ffdad6","surface-container-high":"#eae7e7","on-surface":"#1b1c1c"},borderRadius:{DEFAULT:"1rem",lg:"2rem",xl:"3rem",full:"9999px"},spacing:{"space-xl":"1.5rem","space-xs":"0.25rem","space-lg":"1rem",gutter:"1.5rem",margin:"2.5rem","space-sm":"0.5rem","space-md":"0.75rem"},fontFamily:{"label-caps":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],display:["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"]},fontSize:{"label-caps":["0.6875rem",{lineHeight:"0.875rem",letterSpacing:"0.04em",fontWeight:"700"}],"body-md":["0.9375rem",{lineHeight:"1.375rem",fontWeight:"400"}],display:["3rem",{lineHeight:"3.5rem",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-md":["1.625rem",{lineHeight:"2rem",letterSpacing:"-0.01em",fontWeight:"600"}],"label-lg":["0.875rem",{lineHeight:"1.125rem",fontWeight:"600"}],"title-md":["1rem",{lineHeight:"1.375rem",fontWeight:"600"}],"label-md":["0.75rem",{lineHeight:"1rem",fontWeight:"600"}],"body-sm":["0.875rem",{lineHeight:"1.25rem",fontWeight:"400"}],"headline-sm":["1.25rem",{lineHeight:"1.625rem",letterSpacing:"-0.005em",fontWeight:"600"}],"headline-lg":["2rem",{lineHeight:"2.5rem",letterSpacing:"-0.015em",fontWeight:"600"}],"body-lg":["1.125rem",{lineHeight:"1.625rem",fontWeight:"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-margin flex items-center justify-between"><a class="flex items-center gap-space-sm text-primary flex-shrink-0" data-path="stays" href="#"><img alt="Roamly Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrDBITGy1ffWtr_mMRh-5px0qHBi_X6w2a_r3hiOzs6MYPirlSvTl2tU8VOCf_uFBFrOdDjlgmb09KNeG1RLL9oDoUg8CVg9uPAlYz4gr2HrLXw6hOISqO61Cin5puETkTT44c5zwkb7wuiy6tqLHqv0Uuq-c0GR-U0_oC1u1MWr0OKwmpLg3jlLHOgonQUmmKaus_4AenhLFFuZ9tqVabHcCFHsDFvfuWjaQfeKSaGVGg"/><span class="font-headline-sm text-headline-sm tracking-tight">roamly</span></a><nav class="hidden md:flex items-center gap-space-xl relative" data-active-classes="text-on-surface font-title-md after:content-[''] after:absolute after:bottom-[-26px] after:left-0 after:right-0 after:h-[2px] after:bg-on-surface"><a aria-current="page" class="relative py-space-sm transition-colors text-on-surface font-title-md after:content-[''] after:absolute after:bottom-[-26px] after:left-0 after:right-0 after:h-[2px] after:bg-on-surface" data-path="stays" href="#">Stays</a><a class="relative py-space-sm font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="experiences" href="#">Experiences</a><a class="relative py-space-sm font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="online-experiences" href="#">Online Experiences</a></nav><div class="flex items-center gap-space-sm flex-shrink-0 relative">
+  <a class="hidden sm:inline-flex items-center px-space-md py-space-sm rounded-full font-label-lg text-label-lg text-on-surface hover:bg-surface-container-low transition-colors" href="/host">Roamly your home</a>
+  <button aria-label="Choose a language and currency" class="p-space-sm rounded-full text-on-surface hover:bg-surface-container-low transition-colors flex items-center justify-center cursor-pointer" type="button"><span class="material-symbols-outlined text-[20px]">language</span></button>
+  
+  <!-- User Profile Menu Pill Button -->
+  <button id="user-menu-btn" class="flex items-center gap-space-md pl-space-md pr-space-xs py-space-xs rounded-full bg-surface-container-lowest hover:shadow-[0_2px_4px_rgba(0,0,0,0.18)] transition-all shadow-[0_1px_2px_rgba(0,0,0,0.08),0_4px_12px_rgba(0,0,0,0.05)] cursor-pointer" type="button">
+    <span class="material-symbols-outlined text-[20px] text-on-surface-variant">menu</span>
+    <img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgl57WubYPo6aP7zLb-XCb7ydh6htrxpo7IFgWvUwPir4Q-KAZkKYDn0iHfyqYHBktjzpHtuQnnu8EUMZCMnX9z5xsrr86SIn9u_T-EKoAe9aDWJ_1gav3qH3QWKzv1VPlElPDwFnGm4jSatIn4eTYobiJ_0V0elpJFnKB-y6Yi_yMT3eprPFrIlSiiqHGuWzSnJHeT0i286_hlLRanfRCnAcaNRK1-pLJhrdncFIO"/>
+  </button>
+
+  <!-- Airbnb User Dropdown Menu -->
+  <div id="user-dropdown-menu" class="hidden absolute right-0 top-14 w-60 bg-surface-container-lowest rounded-2xl shadow-2xl border border-surface-variant/30 py-2 z-50 flex flex-col text-on-surface">
+    <a href="/login" class="px-4 py-3 font-semibold text-body-md hover:bg-surface-container-low transition-colors flex items-center justify-between">
+      <span>Log in</span>
+      <span class="text-xs px-2 py-0.5 rounded-full bg-primary/10 text-primary font-bold">Member</span>
+    </a>
+    <a href="/login" class="px-4 py-3 text-body-md hover:bg-surface-container-low transition-colors text-on-surface-variant">Sign up</a>
+    <div class="h-[1px] bg-surface-variant/40 my-1"></div>
+    <a href="/wishlists" class="px-4 py-3 text-body-md hover:bg-surface-container-low transition-colors flex items-center gap-2">
+      <span class="material-symbols-outlined text-[18px]">favorite</span>
+      <span>Wishlists</span>
+    </a>
+    <a href="/profile" class="px-4 py-3 text-body-md hover:bg-surface-container-low transition-colors flex items-center gap-2">
+      <span class="material-symbols-outlined text-[18px]">account_circle</span>
+      <span>Account & Profile</span>
+    </a>
+    <a href="/host" class="px-4 py-3 text-body-md hover:bg-surface-container-low transition-colors flex items-center gap-2">
+      <span class="material-symbols-outlined text-[18px]">home</span>
+      <span>Roamly your home</span>
+    </a>
+  </div>
+</div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full relative">
+<!-- Floating Search Bar Anchor (Negative Top clearance to sit naturally below App Shell Header) -->
+<section class="w-full flex flex-col items-center px-margin pt-space-md pb-space-lg bg-surface">
+<!-- 4-Segment Floating Pill Search Bar -->
+<div class="w-full max-w-4xl bg-surface-container-lowest rounded-full shadow-[0_3px_12px_rgba(0,0,0,0.08),0_10px_30px_rgba(0,0,0,0.06)] hover:shadow-[0_6px_24px_rgba(0,0,0,0.12)] transition-all duration-300 flex items-center p-space-xs relative">
+<!-- Where -->
+<div class="flex-1 flex flex-col justify-center px-space-xl py-space-sm rounded-full hover:bg-surface-container transition-colors cursor-pointer group" role="button" tabindex="0">
+<span class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Where</span>
+<input id="search-input" class="bg-transparent border-0 outline-none p-0 font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant w-full cursor-pointer focus:cursor-text" placeholder="Search destinations (e.g. Italy, Malibu, Aspen)" type="text"/>
+</div>
+<div class="h-8 w-[1px] bg-surface-variant"></div>
+<!-- Check in -->
+<div class="flex-none w-36 flex flex-col justify-center px-space-lg py-space-sm rounded-full hover:bg-surface-container transition-colors cursor-pointer group" role="button" tabindex="0">
+<span class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Check in</span>
+<span class="font-body-md text-body-md text-on-surface-variant group-hover:text-on-surface truncate">Add dates</span>
+</div>
+<div class="h-8 w-[1px] bg-surface-variant"></div>
+<!-- Check out -->
+<div class="flex-none w-36 flex flex-col justify-center px-space-lg py-space-sm rounded-full hover:bg-surface-container transition-colors cursor-pointer group" role="button" tabindex="0">
+<span class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Check out</span>
+<span class="font-body-md text-body-md text-on-surface-variant group-hover:text-on-surface truncate">Add dates</span>
+</div>
+<div class="h-8 w-[1px] bg-surface-variant"></div>
+<!-- Who & Coral CTA Button -->
+<div class="flex-1 flex items-center justify-between pl-space-lg pr-space-xs py-space-xs rounded-full hover:bg-surface-container transition-colors group cursor-pointer">
+<div class="flex flex-col justify-center">
+<span class="font-label-caps text-label-caps text-on-surface uppercase tracking-wider">Who</span>
+<span class="font-body-md text-body-md text-on-surface-variant group-hover:text-on-surface">Add guests</span>
+</div>
+<!-- Coral Search Button (#FF385C styled via primary token) -->
+<button id="search-btn" aria-label="Search" class="h-12 w-12 rounded-full bg-primary hover:bg-secondary-container transition-transform duration-200 active:scale-95 text-on-primary flex items-center justify-center shadow-md cursor-pointer" type="button">
+<span class="material-symbols-outlined text-[22px]">search</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Categories Horizontal Carousel Bar (Sticky Sub-Header) -->
+<section class="sticky top-20 z-40 bg-surface/95 backdrop-blur-md w-full px-margin shadow-[0_4px_12px_rgba(0,0,0,0.02)]">
+<div class="flex items-center justify-between gap-space-lg py-space-sm">
+<!-- Category Item Track -->
+<div class="flex items-center gap-space-xl overflow-x-auto no-scrollbar py-space-xs flex-1">
+<!-- Icons -->
+<button class="category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface-variant hover:text-on-surface transition-colors pb-2" data-category="icons" type="button">
+<span class="material-symbols-outlined text-[26px]">stars</span>
+<span class="font-label-md text-label-md tracking-tight whitespace-nowrap">Icons</span>
+</button>
+<!-- Beachfront (Active) -->
+<button class="category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface transition-colors pb-2 relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-8 after:h-[2px] after:bg-on-surface" data-category="beachfront" type="button">
+<span class="material-symbols-outlined text-[26px] text-on-surface" style="font-variation-settings: 'FILL' 1;">beach_access</span>
+<span class="font-label-md text-label-md tracking-tight font-semibold whitespace-nowrap">Beachfront</span>
+</button>
+<!-- Amazing pools -->
+<button class="category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface-variant hover:text-on-surface transition-colors pb-2" data-category="pools" type="button">
+<span class="material-symbols-outlined text-[26px]">pool</span>
+<span class="font-label-md text-label-md tracking-tight whitespace-nowrap">Amazing pools</span>
+</button>
+<!-- Cabins -->
+<button class="category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface-variant hover:text-on-surface transition-colors pb-2" data-category="cabins" type="button">
+<span class="material-symbols-outlined text-[26px]">cabin</span>
+<span class="font-label-md text-label-md tracking-tight whitespace-nowrap">Cabins</span>
+</button>
+<!-- Mansions -->
+<button class="category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface-variant hover:text-on-surface transition-colors pb-2" data-category="mansions" type="button">
+<span class="material-symbols-outlined text-[26px]">villa</span>
+<span class="font-label-md text-label-md tracking-tight whitespace-nowrap">Mansions</span>
+</button>
+<!-- Tropical -->
+<button class="category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface-variant hover:text-on-surface transition-colors pb-2" data-category="tropical" type="button">
+<span class="material-symbols-outlined text-[26px]">nature</span>
+<span class="font-label-md text-label-md tracking-tight whitespace-nowrap">Tropical</span>
+</button>
+<!-- Lakefront -->
+<button class="category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface-variant hover:text-on-surface transition-colors pb-2" data-category="lakefront" type="button">
+<span class="material-symbols-outlined text-[26px]">kayaking</span>
+<span class="font-label-md text-label-md tracking-tight whitespace-nowrap">Lakefront</span>
+</button>
+<!-- OMG! -->
+<button class="category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface-variant hover:text-on-surface transition-colors pb-2" data-category="omg" type="button">
+<span class="material-symbols-outlined text-[26px]">rocket_launch</span>
+<span class="font-label-md text-label-md tracking-tight whitespace-nowrap">OMG!</span>
+</button>
+<!-- Countryside -->
+<button class="category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface-variant hover:text-on-surface transition-colors pb-2" data-category="countryside" type="button">
+<span class="material-symbols-outlined text-[26px]">cottage</span>
+<span class="font-label-md text-label-md tracking-tight whitespace-nowrap">Countryside</span>
+</button>
+<!-- Ski-in/out -->
+<button class="category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface-variant hover:text-on-surface transition-colors pb-2" data-category="ski_in_out" type="button">
+<span class="material-symbols-outlined text-[26px]">downhill_skiing</span>
+<span class="font-label-md text-label-md tracking-tight whitespace-nowrap">Ski-in/out</span>
+</button>
+<!-- Islands -->
+<button class="category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface-variant hover:text-on-surface transition-colors pb-2" data-category="islands" type="button">
+<span class="material-symbols-outlined text-[26px]">waves</span>
+<span class="font-label-md text-label-md tracking-tight whitespace-nowrap">Islands</span>
+</button>
+<!-- Tiny homes -->
+<button class="category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface-variant hover:text-on-surface transition-colors pb-2" data-category="tiny_homes" type="button">
+<span class="material-symbols-outlined text-[26px]">home_work</span>
+<span class="font-label-md text-label-md tracking-tight whitespace-nowrap">Tiny homes</span>
+</button>
+</div>
+<!-- Filter Controls & Taxes Toggle -->
+<div class="hidden xl:flex items-center gap-space-md flex-shrink-0 pl-space-md">
+<!-- Filters Button -->
+<button class="flex items-center gap-space-sm px-space-md py-space-sm rounded-full bg-surface-container-lowest hover:bg-surface-container transition-colors shadow-sm text-on-surface font-label-lg text-label-lg cursor-pointer border border-surface-variant/40" id="open-filters-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+<span>Filters</span>
+<span class="hidden w-2 h-2 rounded-full bg-primary" id="active-filters-badge"></span>
+</button>
+<!-- Display Total Before Taxes Toggle -->
+<div class="flex items-center gap-space-md px-space-lg py-space-sm rounded-full bg-surface-container-lowest shadow-sm border border-surface-variant/40">
+<span class="font-label-lg text-label-lg text-on-surface whitespace-nowrap">Display total before taxes</span>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" id="tax-toggle" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-on-surface"></div>
+</label>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Content Showcase: 12 Breathtaking Stays (4 to 5 Column Adaptive Desktop Grid) -->
+<main class="w-full px-margin py-space-xl">
+<div id="listings-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-x-gutter gap-y-10">
+<!-- Card 1: Positano, Italy -->
+<article class="flex flex-col group cursor-pointer">
+<div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Stunning clifftop villa infinity terrace overlooking pastel houses and the shimmering azure Tyrrhenian Sea in Positano Amalfi Coast Italy during warm golden afternoon light with bougainvillea vines" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALgHHdW7i68TFAVxqmdnCLWxtLrLJ2rN9FDCShDJ2qltnZlaQwh8E2oVoVaxEsw6AeNXsteWGHRKNyk9Ld0XBpO2j2X6-1ifGHPkfWQWQOtGzOeaOVpQmb43G_nq248x99Ht70Fz7vpCwaiaLUZshoF4sGiWrcx8UXw5_jUElCLLKS6jUz71q64IgsVO786DMgsOlvWZq0Wggmjbby1h8ITWREN8ToHZpK9ZJA9TLx"/>
+<!-- Guest Favorite Badge -->
+<div class="absolute top-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm flex items-center gap-1.5 z-10">
+<span class="material-symbols-outlined text-[14px] text-on-surface">workspace_premium</span>
+<span class="font-label-caps text-label-caps text-on-surface font-bold uppercase tracking-wider">Guest favorite</span>
+</div>
+<!-- Favorite Heart Button -->
+<button aria-label="Add to favorites" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90" type="button">
+<span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+</button>
+<!-- Carousel Dots Indicator -->
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+<span class="w-1.5 h-1.5 rounded-full bg-white shadow-sm"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+</div>
+</div>
+<!-- Meta Block -->
+<div class="flex items-center justify-between gap-space-xs mt-1">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Positano, Italy</h2>
+<div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg font-semibold">4.98</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(128)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Clifftop sea &amp; Amalfi coast views</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">May 12 – 17</p>
+<div class="mt-1 flex items-baseline gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">$420</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 ml-auto">$2,450 total</span>
+</div>
+</article>
+<!-- Card 2: Aspen, Colorado -->
+<article class="flex flex-col group cursor-pointer">
+<div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Modern architectural timber and glass luxury alpine chalet surrounded by golden aspen trees with snow-capped Rocky Mountain peaks in the backdrop under crisp blue Colorado autumn sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9Qzfnc9iJkxurXH-V46EUUbAWg9e0wSobM8HhnX3VsVpZWwsea7BZkQuZKXTj9A0p_1S-x84hopQ-OAAu2EnJNNk6Mmxf1JbMXH4pFXXIXB0UD-_532E4S2Uz7F0XHmUD-IL--QU32Xr2mXwSbMRHhvVZOifnz8JEkOz9u2OnFrCQuKpezWlj8okaN0wgZ5V8oJkO4WcI93uHlYT0LgdNCLgWQ_a79VNs211kNKt1"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm flex items-center gap-1.5 z-10">
+<span class="material-symbols-outlined text-[14px] text-on-surface">workspace_premium</span>
+<span class="font-label-caps text-label-caps text-on-surface font-bold uppercase tracking-wider">Guest favorite</span>
+</div>
+<button aria-label="Add to favorites" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90" type="button">
+<span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+<span class="w-1.5 h-1.5 rounded-full bg-white shadow-sm"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs mt-1">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Aspen, Colorado</h2>
+<div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg font-semibold">4.95</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(94)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Mountain and valley forest views</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Jun 4 – 9</p>
+<div class="mt-1 flex items-baseline gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">$680</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 ml-auto">$3,840 total</span>
+</div>
+</article>
+<!-- Card 3: Santorini, Greece -->
+<article class="flex flex-col group cursor-pointer">
+<div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Traditional whitewashed cave house suite with a private turquoise heated plunge pool carved into the caldera cliff edge in Oia Santorini overlooking dramatic volcanic Aegean seascape" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBafr6AfvpzP73YgdMDvrfYxYSfgQ6IGp-Gwm2eXZw4DObOsjnTo5oGZIlgnxfvh0cv9Xkskdj0Mf-HIAIVrtYO-jbZ-ncapzIM8Fm8grX0ZstF_NS3beeiRlnb8HDYnmazmPTZWI-lP8wnCU4JuNBf7q0oxi0iLTqpwgb1yUNU-JymtYa4zNWvxSbKE4zDr3lmDB_xwJPbTsRKnGuinnc5zBBj0XM5mHdCaftbgBCo"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm flex items-center gap-1.5 z-10">
+<span class="material-symbols-outlined text-[14px] text-on-surface">workspace_premium</span>
+<span class="font-label-caps text-label-caps text-on-surface font-bold uppercase tracking-wider">Guest favorite</span>
+</div>
+<button aria-label="Add to favorites" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90" type="button">
+<span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+<span class="w-1.5 h-1.5 rounded-full bg-white shadow-sm"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs mt-1">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Santorini, Greece</h2>
+<div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg font-semibold">4.99</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(210)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Caldera edge panoramic infinity pool</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Jul 1 – 6</p>
+<div class="mt-1 flex items-baseline gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">$510</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 ml-auto">$2,890 total</span>
+</div>
+</article>
+<!-- Card 4: Kyoto, Japan -->
+<article class="flex flex-col group cursor-pointer">
+<div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Serene traditional Japanese wooden Machiya house with tatami mat flooring, open shoji screens leading directly into a lush moss and bamboo Zen rock garden courtyard in Kyoto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjAgi2rn-zh1mFHbCTexo4Qh9kufOqCrh6xOJAOsXl8J-voMBTvO_6_0qCuF6wRPHv-bWfz6OMI5Ga4IA1O6bxF7D1xPHShNOy5xwasHH7jLRDZwzX-CH_i4t2fPqr_w7rd3JhBkhWlc5Ls3nz_bNcLqCLb-XnJMjyaBEsppQKY7wDrieG76OBieNWcfvvh8HYTohkOpxriNjPwTMom2XYx7s71JoxAIOeFmRjjZdG"/>
+<button aria-label="Add to favorites" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90" type="button">
+<span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+<span class="w-1.5 h-1.5 rounded-full bg-white shadow-sm"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs mt-1">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Kyoto, Japan</h2>
+<div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg font-semibold">4.92</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(88)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Surrounded by private cedar garden</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Aug 14 – 19</p>
+<div class="mt-1 flex items-baseline gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">$295</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 ml-auto">$1,680 total</span>
+</div>
+</article>
+<!-- Card 5: Tulum, Mexico -->
+<article class="flex flex-col group cursor-pointer">
+<div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Eco-luxury jungle villa in Tulum with curved raw chukum plaster walls, hanging rattan lighting, private natural stone plunge pool, surrounded by lush tropical palms and banana trees" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEpqrMXIRiie2M3FLBDnzLrr7ILjVsE1E0Nlk7ii6AvEsdsmJRDMMbwQ-RH0gisEA7d70PO2PNH-zG4w5qcPlkebSYrkVZ-ScinibXks9UfLm7qpiYIyqXGlpkzhrs3N4gvoM6XYl5hLX7aToQq4J5kGF1NC3W-3o_Um3JImVtMqhz_NM4v5MwmQ-KuxySjPvhp6XmGxLIYyY9IOcHKWCvsvyCk1y1P7AtDhC3bFqo"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm flex items-center gap-1.5 z-10">
+<span class="material-symbols-outlined text-[14px] text-on-surface">workspace_premium</span>
+<span class="font-label-caps text-label-caps text-on-surface font-bold uppercase tracking-wider">Guest favorite</span>
+</div>
+<button aria-label="Add to favorites" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90" type="button">
+<span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+<span class="w-1.5 h-1.5 rounded-full bg-white shadow-sm"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs mt-1">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Tulum, Mexico</h2>
+<div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg font-semibold">4.89</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(165)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Steps away from Mayan beach</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">May 20 – 25</p>
+<div class="mt-1 flex items-baseline gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">$240</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 ml-auto">$1,380 total</span>
+</div>
+</article>
+<!-- Card 6: Reykjavik, Iceland -->
+<article class="flex flex-col group cursor-pointer">
+<div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Futuristic glass igloo eco-cabin nestled on black volcanic moss fields in Iceland with visible vibrant emerald green Aurora Borealis Northern Lights dancing across a star-filled night sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQiEVwDVCsVliwherrZNqBBhWpo_KNZ1l5d334gkWUDI0c1coC6kVQNDd_mYLR721n4VnEKHIfO0MkKNMH-VDb_q6Nz-_P-3eHgbZAdtYOVOzBr3rbsBNr7897rizeH5_eIeyCg3gfqkiXw0CDA0M1YBSanG3CZDJW2NCWy4cGJbEIRhdTfa1bfNl5Mt1JhRrM_KEj3D_P7kcw4JSDj7QXs97-lmb2OW_aJJv7xKRQ"/>
+<button aria-label="Add to favorites" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90" type="button">
+<span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+<span class="w-1.5 h-1.5 rounded-full bg-white shadow-sm"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs mt-1">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Reykjavik, Iceland</h2>
+<div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg font-semibold">4.97</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(114)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Northern lights &amp; volcanic field views</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sep 10 – 15</p>
+<div class="mt-1 flex items-baseline gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">$385</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 ml-auto">$2,190 total</span>
+</div>
+</article>
+<!-- Card 7: Zermatt, Switzerland -->
+<article class="flex flex-col group cursor-pointer">
+<div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Chic Swiss timber penthouse balcony with warm fireplace glow looking out directly onto the snow-dusted, razor-sharp pyramid peak of the Matterhorn mountain in Zermatt" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC92Yxo8QPZUCAISadCMBbQm2wIli285K69cTmc2G24sR2FrkHDgpQiHLHzt1uFE2hRLytxnaOf85eU4olrFNExqZ90FmiqY_igvYuO4IVvHU8JwKVGTkOllbLTn25yPt61NjywoDH796SS9f1wN721yA5r4UOrPp2i8swHUkih6ppcbFlSDXji9h9tH2LzJV68GRJ0-lWz83oKHEn5aMrRekw9NhG02dQRleoseRcN"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm flex items-center gap-1.5 z-10">
+<span class="material-symbols-outlined text-[14px] text-on-surface">workspace_premium</span>
+<span class="font-label-caps text-label-caps text-on-surface font-bold uppercase tracking-wider">Guest favorite</span>
+</div>
+<button aria-label="Add to favorites" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90" type="button">
+<span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+<span class="w-1.5 h-1.5 rounded-full bg-white shadow-sm"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs mt-1">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Zermatt, Switzerland</h2>
+<div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg font-semibold">4.96</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(79)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Direct Matterhorn peak views</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Oct 1 – 6</p>
+<div class="mt-1 flex items-baseline gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">$575</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 ml-auto">$3,260 total</span>
+</div>
+</article>
+<!-- Card 8: Bora Bora, French Polynesia -->
+<article class="flex flex-col group cursor-pointer">
+<div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Overwater thatched-roof luxury bungalow hovering above crystalline translucent turquoise lagoon waters with Mount Otemanu rising dramatically in Bora Bora French Polynesia" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUxT5k_rYGIF1miONgmPiAXHUsClEkMDwR1KgLZXx443LKNYxSgZqhnjlWvPpnFpu1ezhcGx1JIsWYjOAegl6S6V54hQlvX2orMSNaiYX8e6FuJOpBqYe0UwlA3wzEsoBh-tuULZd_6qKtTpgcpN6gnXHe7fKWj0xl4mpP65WFxka8-Sx-nuV5iLzuz0Jkc7Ib4OaYZ9Y4I1agC0dkFYfb2ptcemzpkdBXauGKIkCu"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm flex items-center gap-1.5 z-10">
+<span class="material-symbols-outlined text-[14px] text-on-surface">workspace_premium</span>
+<span class="font-label-caps text-label-caps text-on-surface font-bold uppercase tracking-wider">Guest favorite</span>
+</div>
+<button aria-label="Add to favorites" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90" type="button">
+<span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+<span class="w-1.5 h-1.5 rounded-full bg-white shadow-sm"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs mt-1">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Bora Bora, French Polynesia</h2>
+<div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg font-semibold">5.0</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(62)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Overwater lagoon direct access</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Jun 18 – 23</p>
+<div class="mt-1 flex items-baseline gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">$920</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 ml-auto">$5,180 total</span>
+</div>
+</article>
+<!-- Card 9: Maui, Hawaii -->
+<article class="flex flex-col group cursor-pointer">
+<div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Expansive open-air oceanfront plantation estate in Maui Hawaii with lush manicured lawns, tall coconut palms, and direct access to golden sand beach during a pink Pacific sunset" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdTLereYO6FeU2Xa6bMs7wQ666lGR2xjWaFeT0mMTAVebTjt62K6Fd3DFkP30Kb0XNAYdBvDL5OOVOjGGGUDbABILwmlQ2JendV1u7GvqImS65F989jG21i_vzEuNMO_bvuydI-KEdmmqc8QsfrzeS3nE75OVlQI5aPv_ZgTAbAA3ZlTjcPl58maxteFpVPmj2T8Tmc8uoPCxNH3BS5FdqHt5CXpECEq7lA7S5QI3B"/>
+<button aria-label="Add to favorites" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90" type="button">
+<span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+<span class="w-1.5 h-1.5 rounded-full bg-white shadow-sm"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs mt-1">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Maui, Hawaii</h2>
+<div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg font-semibold">4.94</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(142)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Oceanfront private beach access</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Jul 20 – 25</p>
+<div class="mt-1 flex items-baseline gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">$540</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 ml-auto">$3,060 total</span>
+</div>
+</article>
+<!-- Card 10: Mallorca, Spain -->
+<article class="flex flex-col group cursor-pointer">
+<div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Restored historic sandstone Finca in the Serra de Tramuntana Mallorca with olive groves, dry stone walls, and a private stone pool overlooking the sparkling Mediterranean sea" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJMdxW75xyZc2l4-tlU0aS47VwfRq252fuy2ETnGhD96AGstgRmX13wASbp6rsAUwAbk-gWQtJRXFE3jN3zd8VcTUuQmn0_boe5SK94JjTUY9Rw0vcX1DCvNqeqUO1isLV-XTYxhAIoNlWkA68M4zibnDLOXT9KOIIlWEZvMnYGIAeHEw0Oq76P2hY9xqmAASgtDGYnZItW1G8fpU4cD46sr15m7AdKl5vADWZxmA5"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm flex items-center gap-1.5 z-10">
+<span class="material-symbols-outlined text-[14px] text-on-surface">workspace_premium</span>
+<span class="font-label-caps text-label-caps text-on-surface font-bold uppercase tracking-wider">Guest favorite</span>
+</div>
+<button aria-label="Add to favorites" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90" type="button">
+<span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+<span class="w-1.5 h-1.5 rounded-full bg-white shadow-sm"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs mt-1">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Mallorca, Spain</h2>
+<div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg font-semibold">4.93</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(98)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Balearic Sea &amp; ancient olive grove views</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Jun 11 – 16</p>
+<div class="mt-1 flex items-baseline gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">$360</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 ml-auto">$2,080 total</span>
+</div>
+</article>
+<!-- Card 11: Banff, Canada -->
+<article class="flex flex-col group cursor-pointer">
+<div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Rustic modern cedar log lodge on the banks of a glowing turquoise glacial lake in Banff National Park Canada with dramatic pine forests and snowy Canadian Rocky peaks reflected" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDj1dtigEaKPXXoq4pByxjB4rOTDGde6okzpUOZ3MO8IX5EkFi21h0BfKae08G-39rVQL4E1j2hyL0OSXJux4ENZYr8_BhiVdI-SnzG-uBjtvobtgY93K39BmyuCJWOKwt1fDQSBYYD-xQNHQqwpoNgT4LCeJQN6aL3WNKJp8EFTTFwcuOIHQ1cGsjg6E3IMyR2mvGNdPDXWiu0v-t90CP9t1Ri04gtyBYklNAb0qYT"/>
+<button aria-label="Add to favorites" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90" type="button">
+<span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+<span class="w-1.5 h-1.5 rounded-full bg-white shadow-sm"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs mt-1">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Banff, Canada</h2>
+<div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg font-semibold">4.91</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(118)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Glacial lakefront &amp; pine wilderness views</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Aug 3 – 8</p>
+<div class="mt-1 flex items-baseline gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">$410</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 ml-auto">$2,350 total</span>
+</div>
+</article>
+<!-- Card 12: Lake Como, Italy -->
+<article class="flex flex-col group cursor-pointer">
+<div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Grand neoclassical lakeside villa in Lake Como Italy with classical stone balustrades, private boat dock, cypress trees, and tranquil blue water nestled against dramatic Alpine foothills" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnoOsTbEjNnNz-agCQ-vl22MSyOt87C4XL_7uOnRKAlbNo9D1A1DhVTJfy-OqN64fLOtsJyCWK17IqrAGjcwzxqmHLZGEgBZ2G5_5EAvnPn32SFbuZ4pKAitH4dh9DQDCMco_OEONDLkCUzLF1kRLWLfW4uIn_nsdBEySxz0FVdHZW3z5bDHMroG5ICxaYWBgVctv2KKDgonz88W06lGCLPJukjIInQhPj3bOQNt56"/>
+<div class="absolute top-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm flex items-center gap-1.5 z-10">
+<span class="material-symbols-outlined text-[14px] text-on-surface">workspace_premium</span>
+<span class="font-label-caps text-label-caps text-on-surface font-bold uppercase tracking-wider">Guest favorite</span>
+</div>
+<button aria-label="Add to favorites" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90" type="button">
+<span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+</button>
+<div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+<span class="w-1.5 h-1.5 rounded-full bg-white shadow-sm"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-white/60"></span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs mt-1">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Lake Como, Italy</h2>
+<div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-lg text-label-lg font-semibold">4.97</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(156)</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Lakeside terrace with private boat dock</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Jun 25 – 30</p>
+<div class="mt-1 flex items-baseline gap-1.5">
+<span class="font-title-md text-title-md text-on-surface font-bold">$780</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 ml-auto">$4,480 total</span>
+</div>
+</article>
+</div>
+<!-- Discovery CTA & Pagination Footer -->
+<div class="flex flex-col items-center justify-center gap-space-md mt-16 mb-space-xl">
+<h3 class="font-headline-sm text-headline-sm text-on-surface text-center">Continue exploring beachfront homes</h3>
+<button class="px-space-xl py-3.5 bg-on-surface hover:bg-inverse-surface active:scale-95 text-on-primary rounded-xl font-label-lg text-label-lg transition-all shadow-md cursor-pointer" type="button">
+        Show more
+      </button>
+</div>
+</main>
+<!-- Floating 'Show map' Button (Pinned to Bottom Center) -->
+<div class="fixed bottom-8 left-1/2 -translate-x-1/2 z-30">
+<button class="flex items-center gap-space-sm px-5 py-3.5 rounded-full bg-inverse-surface hover:scale-105 active:scale-95 text-inverse-on-surface font-label-lg text-label-lg shadow-[0_6px_16px_rgba(0,0,0,0.18)] transition-all cursor-pointer" type="button">
+<span>Show map</span>
+<span class="material-symbols-outlined text-[18px]">map</span>
+</button>
+</div>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl"><div class="w-full px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter pb-space-xl"><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-on-surface">Support</span><div class="flex flex-col gap-space-sm"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="help-center" href="#">Help Center</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="aircover" href="#">AirCover</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="anti-discrimination" href="#">Anti-discrimination</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="disability-support" href="#">Disability support</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="cancellation-options" href="#">Cancellation options</a></div></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-on-surface">Community</span><div class="flex flex-col gap-space-sm"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="disaster-relief" href="#">Roamly.org disaster relief</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="combating-discrimination" href="#">Combating discrimination</a></div></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-on-surface">Hosting</span><div class="flex flex-col gap-space-sm"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="airbnb-your-home" href="#">Roamly your home</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="aircover-hosts" href="#">AirCover for Hosts</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="hosting-resources" href="#">Hosting resources</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="community-forum" href="#">Community forum</a></div></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-on-surface">Roamly</span><div class="flex flex-col gap-space-sm"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="newsroom" href="#">Newsroom</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="new-features" href="#">New features</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="careers" href="#">Careers</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="investors" href="#">Investors</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="gift-cards" href="#">Gift cards</a></div></div></div><div class="pt-space-lg flex flex-col lg:flex-row items-center justify-between gap-space-md"><div class="flex flex-wrap items-center gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><span>© 2025 Roamly, Inc.</span><span>·</span><a class="hover:text-on-surface transition-colors" data-path="privacy" href="#">Privacy</a><span>·</span><a class="hover:text-on-surface transition-colors" data-path="terms" href="#">Terms</a><span>·</span><a class="hover:text-on-surface transition-colors" data-path="sitemap" href="#">Sitemap</a><span>·</span><a class="hover:text-on-surface transition-colors" data-path="company-details" href="#">Company details</a></div><div class="flex items-center gap-space-xl font-label-lg text-label-lg text-on-surface"><div class="flex items-center gap-space-md"><button class="flex items-center gap-space-xs hover:underline cursor-pointer" type="button"><span class="material-symbols-outlined text-[18px]">language</span>English (US)</button><button class="hover:underline cursor-pointer" type="button">$ USD</button></div><div class="flex items-center gap-space-md text-on-surface-variant"><a class="hover:text-on-surface transition-colors flex items-center" data-path="social-global" href="#"><span class="material-symbols-outlined text-[20px]">public</span></a><a class="hover:text-on-surface transition-colors flex items-center" data-path="social-share" href="#"><span class="material-symbols-outlined text-[20px]">share</span></a><a class="hover:text-on-surface transition-colors flex items-center" data-path="social-chat" href="#"><span class="material-symbols-outlined text-[20px]">chat_bubble</span></a></div></div></div></div></footer>
+<!-- Filters Modal Overlay Container -->
+<div class="fixed inset-0 z-[100] hidden items-center justify-center p-4 sm:p-6 transition-all duration-300" id="filters-modal-overlay">
+<!-- Backdrop -->
+<div class="fixed inset-0 bg-inverse-surface/60 backdrop-blur-sm opacity-0 transition-opacity duration-300" id="filters-backdrop"></div>
+<!-- Modal Dialog -->
+<div class="relative z-10 w-full max-w-2xl lg:max-w-3xl max-h-[88vh] bg-surface-container-lowest rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.25)] flex flex-col overflow-hidden scale-95 opacity-0 transition-all duration-300 transform" id="filters-dialog">
+<!-- Modal Header (Sticky) -->
+<div class="sticky top-0 z-20 flex items-center justify-between px-6 py-4 border-b border-surface-variant bg-surface-container-lowest/95 backdrop-blur-sm">
+<button aria-label="Close filters" class="w-9 h-9 rounded-full hover:bg-surface-container transition-colors flex items-center justify-center text-on-surface cursor-pointer" id="close-filters-btn" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<h2 class="font-title-md text-title-md font-bold text-on-surface text-center flex-1 pr-9">Filters</h2>
+</div>
+<!-- Scrollable Modal Body -->
+<div class="overflow-y-auto px-6 sm:px-8 py-6 space-y-8 divide-y divide-surface-variant text-on-surface">
+<!-- Section 1: Type of Place -->
+<div class="pt-2">
+<h3 class="font-title-md text-title-md font-semibold text-on-surface mb-1">Type of place</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">Search rooms, entire homes, or any type of space</p>
+<div class="grid grid-cols-3 p-1 bg-surface-container rounded-2xl gap-1" id="place-type-group">
+<button class="place-type-btn py-3 px-3 rounded-xl font-label-lg text-label-lg transition-all text-center cursor-pointer bg-surface-container-lowest text-on-surface shadow-sm font-semibold" data-value="any" type="button">Any type</button>
+<button class="place-type-btn py-3 px-3 rounded-xl font-label-lg text-label-lg transition-all text-center cursor-pointer text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low" data-value="room" type="button">Room</button>
+<button class="place-type-btn py-3 px-3 rounded-xl font-label-lg text-label-lg transition-all text-center cursor-pointer text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low" data-value="entire" type="button">Entire home</button>
+</div>
+</div>
+<!-- Section 2: Price Range & Histogram -->
+<div class="pt-6">
+<h3 class="font-title-md text-title-md font-semibold text-on-surface mb-0.5">Price range</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-5">Nightly prices before taxes and fees</p>
+<!-- Simulated Histogram Bars with Highlight Selection Range -->
+<div class="w-full flex items-end gap-[3px] h-24 px-4 mb-2 select-none">
+<div class="flex-1 bg-surface-variant rounded-t h-[15%]"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[28%]"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[42%]"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[55%]"></div>
+<div class="flex-1 bg-primary/80 rounded-t h-[75%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[92%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[100%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[85%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[70%] transition-colors"></div>
+<div class="flex-1 bg-primary/90 rounded-t h-[88%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[65%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[58%] transition-colors"></div>
+<div class="flex-1 bg-primary/80 rounded-t h-[48%] transition-colors"></div>
+<div class="flex-1 bg-primary/80 rounded-t h-[40%] transition-colors"></div>
+<div class="flex-1 bg-primary/70 rounded-t h-[32%] transition-colors"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[24%]"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[18%]"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[10%]"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[6%]"></div>
+</div>
+<!-- Range Visual Slider Track -->
+<div class="relative w-full h-1 bg-surface-variant mb-6">
+<div class="absolute left-[20%] right-[22%] top-0 bottom-0 bg-primary"></div>
+<div class="absolute left-[20%] top-1/2 -translate-y-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-white border-2 border-primary shadow-md cursor-grab"></div>
+<div class="absolute right-[22%] top-1/2 -translate-y-1/2 translate-x-1/2 w-6 h-6 rounded-full bg-white border-2 border-primary shadow-md cursor-grab"></div>
+</div>
+<!-- Inputs Row -->
+<div class="grid grid-cols-2 gap-4 items-center">
+<div class="border border-outline-variant/80 focus-within:border-on-surface rounded-2xl p-3 bg-surface-container-lowest transition-colors">
+<span class="block font-label-caps text-label-caps text-on-surface-variant">Minimum</span>
+<div class="flex items-center text-on-surface mt-0.5">
+<span class="font-title-md mr-1">$</span>
+<input class="w-full border-0 p-0 text-title-md font-semibold focus:ring-0 outline-none bg-transparent" id="price-min" type="number" value="75"/>
+</div>
+</div>
+<div class="border border-outline-variant/80 focus-within:border-on-surface rounded-2xl p-3 bg-surface-container-lowest transition-colors">
+<span class="block font-label-caps text-label-caps text-on-surface-variant">Maximum</span>
+<div class="flex items-center text-on-surface mt-0.5">
+<span class="font-title-md mr-1">$</span>
+<input class="w-full border-0 p-0 text-title-md font-semibold focus:ring-0 outline-none bg-transparent" id="price-max" type="number" value="650"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Section 3: Rooms and Beds -->
+<div class="pt-6 space-y-5">
+<div>
+<h3 class="font-title-md text-title-md font-semibold text-on-surface mb-0.5">Rooms and beds</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">Choose bedroom and bed configurations</p>
+</div>
+<!-- Bedrooms row -->
+<div>
+<span class="block font-body-md text-body-md text-on-surface mb-2.5 font-medium">Bedrooms</span>
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 count-pill-row" data-field="bedrooms">
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium transition-all cursor-pointer bg-on-surface text-surface-container-lowest border-on-surface" type="button">Any</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">1</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">2</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">3</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">4</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">5</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">6</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">7</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">8+</button>
+</div>
+</div>
+<!-- Beds row -->
+<div>
+<span class="block font-body-md text-body-md text-on-surface mb-2.5 font-medium">Beds</span>
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 count-pill-row" data-field="beds">
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium transition-all cursor-pointer bg-on-surface text-surface-container-lowest border-on-surface" type="button">Any</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">1</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">2</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">3</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">4</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">5</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">6+</button>
+</div>
+</div>
+<!-- Bathrooms row -->
+<div>
+<span class="block font-body-md text-body-md text-on-surface mb-2.5 font-medium">Bathrooms</span>
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 count-pill-row" data-field="bathrooms">
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium transition-all cursor-pointer bg-on-surface text-surface-container-lowest border-on-surface" type="button">Any</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">1</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">2</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">3</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">4</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">5+</button>
+</div>
+</div>
+</div>
+<!-- Section 4: Property Types -->
+<div class="pt-6">
+<h3 class="font-title-md text-title-md font-semibold text-on-surface mb-1">Property type</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">Filter by the architecture or type of building</p>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+<!-- House Card -->
+<div class="prop-type-card border-2 border-on-surface bg-surface-container-low/40 rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all hover:border-on-surface active:scale-[0.98]" role="button" tabindex="0">
+<span class="material-symbols-outlined text-[32px] text-primary">cottage</span>
+<span class="font-title-md text-title-md font-semibold text-on-surface">House</span>
+</div>
+<!-- Apartment Card -->
+<div class="prop-type-card border border-surface-variant hover:border-on-surface rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all active:scale-[0.98]" role="button" tabindex="0">
+<span class="material-symbols-outlined text-[32px] text-on-surface-variant">apartment</span>
+<span class="font-title-md text-title-md font-semibold text-on-surface">Apartment</span>
+</div>
+<!-- Guesthouse Card -->
+<div class="prop-type-card border border-surface-variant hover:border-on-surface rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all active:scale-[0.98]" role="button" tabindex="0">
+<span class="material-symbols-outlined text-[32px] text-on-surface-variant">cabin</span>
+<span class="font-title-md text-title-md font-semibold text-on-surface">Guesthouse</span>
+</div>
+<!-- Hotel Card -->
+<div class="prop-type-card border border-surface-variant hover:border-on-surface rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all active:scale-[0.98]" role="button" tabindex="0">
+<span class="material-symbols-outlined text-[32px] text-on-surface-variant">hotel</span>
+<span class="font-title-md text-title-md font-semibold text-on-surface">Hotel</span>
+</div>
+</div>
+</div>
+<!-- Section 5: Amenities -->
+<div class="pt-6">
+<h3 class="font-title-md text-title-md font-semibold text-on-surface mb-1">Amenities</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">Popular amenities guests look for</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input checked="" class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">wifi</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Wifi</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input checked="" class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">skillet</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Kitchen</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">local_laundry_service</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Washer</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input checked="" class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">local_parking</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Free parking</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input checked="" class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">mode_fan</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Air conditioning</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">desk</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Dedicated workspace</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">pool</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Pool</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">hot_tub</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Hot tub</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">ev_charger</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">EV charger</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">crib</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Crib</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">bed</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">King bed</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">fitness_center</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Gym</span>
+</label>
+</div>
+</div>
+<!-- Section 6: Booking Options -->
+<div class="pt-6 space-y-4">
+<div>
+<h3 class="font-title-md text-title-md font-semibold text-on-surface mb-1">Booking options</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">Instant confirmations and flexible access</p>
+</div>
+<!-- Instant Book -->
+<div class="flex items-center justify-between py-2">
+<div class="pr-4">
+<span class="block font-title-md text-title-md font-medium text-on-surface">Instant Book</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Listings you can book without waiting for host approval</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer flex-shrink-0">
+<input class="sr-only peer" type="checkbox"/>
+<div class="w-12 h-7 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-on-surface shadow-inner"></div>
+</label>
+</div>
+<!-- Self check-in -->
+<div class="flex items-center justify-between py-2">
+<div class="pr-4">
+<span class="block font-title-md text-title-md font-medium text-on-surface">Self check-in</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Easy access to the property with keypad, smartlock, or lockbox</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer flex-shrink-0">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-12 h-7 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-on-surface shadow-inner"></div>
+</label>
+</div>
+<!-- Allows pets -->
+<div class="flex items-center justify-between py-2">
+<div class="pr-4">
+<span class="block font-title-md text-title-md font-medium text-on-surface">Allows pets</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bringing a service animal or pet along on your vacation</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer flex-shrink-0">
+<input class="sr-only peer" type="checkbox"/>
+<div class="w-12 h-7 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-on-surface shadow-inner"></div>
+</label>
+</div>
+</div>
+</div>
+<!-- Modal Footer (Sticky) -->
+<div class="sticky bottom-0 z-20 flex items-center justify-between px-6 sm:px-8 py-4 border-t border-surface-variant bg-surface-container-lowest">
+<button class="font-label-lg text-label-lg font-semibold text-on-surface underline hover:text-on-surface-variant transition-colors cursor-pointer py-2" id="clear-all-filters-btn" type="button">
+        Clear all
+      </button>
+<button class="px-7 py-3.5 rounded-xl bg-on-surface hover:bg-inverse-surface active:scale-95 text-on-primary font-label-lg text-label-lg font-semibold transition-all shadow-md cursor-pointer flex items-center gap-2" id="apply-filters-btn" type="button">
+<span>Show 1,000+ places</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Toast Feedback Notification -->
+<div class="fixed bottom-24 left-1/2 -translate-x-1/2 z-50 bg-inverse-surface text-inverse-on-surface px-5 py-3 rounded-full shadow-2xl flex items-center gap-2 text-sm font-medium transition-all duration-300 opacity-0 pointer-events-none translate-y-3" id="filter-toast">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">check_circle</span>
+<span id="toast-message">Filters updated: 1,000+ stays match your criteria</span>
+</div>
+<script>
+  // DOM Elements
+  const openFiltersBtn = document.getElementById('open-filters-btn');
+  const closeFiltersBtn = document.getElementById('close-filters-btn');
+  const filtersModal = document.getElementById('filters-modal-overlay');
+  const filtersBackdrop = document.getElementById('filters-backdrop');
+  const filtersDialog = document.getElementById('filters-dialog');
+  const applyFiltersBtn = document.getElementById('apply-filters-btn');
+  const clearAllFiltersBtn = document.getElementById('clear-all-filters-btn');
+  const toast = document.getElementById('filter-toast');
+  const activeFiltersBadge = document.getElementById('active-filters-badge');
+
+  // Open Modal function
+  function openModal() {
+    filtersModal.classList.remove('hidden');
+    filtersModal.classList.add('flex');
+    document.body.classList.add('overflow-hidden');
+    // Animate in
+    setTimeout(() => {
+      filtersBackdrop.classList.remove('opacity-0');
+      filtersBackdrop.classList.add('opacity-100');
+      filtersDialog.classList.remove('scale-95', 'opacity-0');
+      filtersDialog.classList.add('scale-100', 'opacity-100');
+    }, 10);
+  }
+
+  // Close Modal function
+  function closeModal() {
+    filtersBackdrop.classList.remove('opacity-100');
+    filtersBackdrop.classList.add('opacity-0');
+    filtersDialog.classList.remove('scale-100', 'opacity-100');
+    filtersDialog.classList.add('scale-95', 'opacity-0');
+
+    setTimeout(() => {
+      filtersModal.classList.remove('flex');
+      filtersModal.classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    }, 280);
+  }
+
+  function showToast(msg) {
+    if (msg) document.getElementById('toast-message').textContent = msg;
+    toast.classList.remove('opacity-0', 'translate-y-3', 'pointer-events-none');
+    toast.classList.add('opacity-100', 'translate-y-0');
+    setTimeout(() => {
+      toast.classList.remove('opacity-100', 'translate-y-0');
+      toast.classList.add('opacity-0', 'translate-y-3', 'pointer-events-none');
+    }, 3500);
+  }
+
+  // Event Listeners for trigger & closing
+  if (openFiltersBtn) {
+    openFiltersBtn.addEventListener('click', openModal);
+  }
+  if (closeFiltersBtn) {
+    closeFiltersBtn.addEventListener('click', closeModal);
+  }
+  if (filtersBackdrop) {
+    filtersBackdrop.addEventListener('click', closeModal);
+  }
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !filtersModal.classList.contains('hidden')) {
+      closeModal();
+    }
+  });
+
+  // Apply filters button
+  if (applyFiltersBtn) {
+    applyFiltersBtn.addEventListener('click', () => {
+      closeModal();
+      if (activeFiltersBadge) activeFiltersBadge.classList.remove('hidden');
+      showToast('Filters applied! Displaying matching stays.');
+    });
+  }
+
+  // Type of place segmented pill toggle
+  const placeTypeBtns = document.querySelectorAll('.place-type-btn');
+  placeTypeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      placeTypeBtns.forEach(b => {
+        b.className = 'place-type-btn py-3 px-3 rounded-xl font-label-lg text-label-lg transition-all text-center cursor-pointer text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low';
+      });
+      btn.className = 'place-type-btn py-3 px-3 rounded-xl font-label-lg text-label-lg transition-all text-center cursor-pointer bg-surface-container-lowest text-on-surface shadow-sm font-semibold';
+    });
+  });
+
+  // Rooms and Beds Pills selection logic
+  const pillRows = document.querySelectorAll('.count-pill-row');
+  pillRows.forEach(row => {
+    const pills = row.querySelectorAll('.count-pill');
+    pills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        pills.forEach(p => {
+          p.className = 'count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface';
+        });
+        pill.className = 'count-pill py-2 px-4 rounded-full border border-on-surface text-body-sm font-medium transition-all cursor-pointer bg-on-surface text-surface-container-lowest';
+      });
+    });
+  });
+
+  // Property Type Cards multi-toggle logic
+  const propCards = document.querySelectorAll('.prop-type-card');
+  propCards.forEach(card => {
+    card.addEventListener('click', () => {
+      const isSelected = card.classList.contains('border-2') && card.classList.contains('border-on-surface');
+      const icon = card.querySelector('.material-symbols-outlined');
+      if (isSelected) {
+        card.className = 'prop-type-card border border-surface-variant hover:border-on-surface rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all active:scale-[0.98]';
+        if (icon) {
+          icon.classList.remove('text-primary');
+          icon.classList.add('text-on-surface-variant');
+        }
+      } else {
+        card.className = 'prop-type-card border-2 border-on-surface bg-surface-container-low/40 rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all hover:border-on-surface active:scale-[0.98]';
+        if (icon) {
+          icon.classList.remove('text-on-surface-variant');
+          icon.classList.add('text-primary');
+        }
+      }
+    });
+  });
+
+  // Clear all button action
+  if (clearAllFiltersBtn) {
+    clearAllFiltersBtn.addEventListener('click', () => {
+      // Reset place type to "Any"
+      if (placeTypeBtns.length > 0) placeTypeBtns[0].click();
+
+      // Reset price inputs
+      const minInput = document.getElementById('price-min');
+      const maxInput = document.getElementById('price-max');
+      if (minInput) minInput.value = '10';
+      if (maxInput) maxInput.value = '500';
+
+      // Reset count pills to Any
+      pillRows.forEach(row => {
+        const firstPill = row.querySelector('.count-pill');
+        if (firstPill) firstPill.click();
+      });
+
+      // Reset property types (unselect all)
+      propCards.forEach(card => {
+        card.className = 'prop-type-card border border-surface-variant hover:border-on-surface rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all active:scale-[0.98]';
+        const icon = card.querySelector('.material-symbols-outlined');
+        if (icon) {
+          icon.classList.remove('text-primary');
+          icon.classList.add('text-on-surface-variant');
+        }
+      });
+
+      // Reset amenity checkboxes
+      const checkboxes = document.querySelectorAll('#filters-dialog input[type="checkbox"]');
+      checkboxes.forEach(cb => {
+        cb.checked = false;
+      });
+
+      if (activeFiltersBadge) activeFiltersBadge.classList.add('hidden');
+      showToast('Filters cleared');
+      fetchDynamicListings();
+    });
+  }
+
+  // ---------------- BACKEND INTEGRATION ----------------
+  let activeCategory = '';
+  let activeSearch = '';
+
+  async function fetchDynamicListings(category = '', search = '', minPrice = '', maxPrice = '') {
+    const grid = document.getElementById('listings-grid');
+    if (!grid) return;
+
+    try {
+      const params = new URLSearchParams();
+      if (category && category !== 'all') params.append('category', category);
+      if (search) params.append('search', search);
+      if (minPrice) params.append('minPrice', minPrice);
+      if (maxPrice) params.append('maxPrice', maxPrice);
+
+      const queryString = params.toString();
+      const url = `/api/listings${queryString ? '?' + queryString : ''}`;
+
+      const res = await fetch(url);
+      const data = await res.json();
+
+      if (data.success && data.listings) {
+        if (data.listings.length === 0) {
+          grid.innerHTML = `
+            <div class="col-span-full py-20 text-center flex flex-col items-center justify-center gap-3">
+              <span class="material-symbols-outlined text-[54px] text-primary">search_off</span>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">No exact matches found</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant max-w-md">Try selecting another category like Beachfront, Cabins, or Mansions, or clear your search filters.</p>
+              <button onclick="resetAllFilters()" class="mt-3 px-6 py-3 rounded-full bg-primary text-on-primary font-label-lg text-label-lg font-semibold shadow-md hover:bg-secondary transition-all cursor-pointer">
+                View all stays
+              </button>
+            </div>
+          `;
+          showToast(`No stays found matching your criteria`);
+          return;
+        }
+
+        const isTaxChecked = document.getElementById('tax-toggle')?.checked ?? true;
+
+        grid.innerHTML = data.listings.map(item => {
+          const imgUrl = item.images && item.images.length > 0 
+            ? item.images[0].url 
+            : 'https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800';
+          const rating = item.rating?.average ? item.rating.average.toFixed(2) : '4.95';
+          const reviewsCount = item.rating?.count || 120;
+          const price = item.price?.basePrice || 420;
+          const totalPrice = Math.round(price * 5 * 1.25);
+          const cityCountry = `${item.location?.city || 'Positano'}, ${item.location?.country || 'Italy'}`;
+
+          return `
+            <article class="flex flex-col group cursor-pointer" onclick="window.location.href='/detail?id=${item._id}'">
+              <div class="relative w-full aspect-[20/19] rounded-2xl overflow-hidden bg-surface-container-high mb-space-sm shadow-sm group-hover:shadow-md transition-shadow">
+                <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" alt="${item.title}" src="${imgUrl}"/>
+                ${item.guestFavorite ? `
+                  <div class="absolute top-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm flex items-center gap-1.5 z-10">
+                    <span class="material-symbols-outlined text-[14px] text-on-surface">workspace_premium</span>
+                    <span class="font-label-caps text-label-caps text-on-surface font-bold uppercase tracking-wider">Guest favorite</span>
+                  </div>
+                ` : ''}
+                <button aria-label="Add to favorites" onclick="event.stopPropagation(); toggleSaveListing('${item._id}')" class="absolute top-3 right-3 text-white/90 hover:text-primary transition-colors z-10 active:scale-90 cursor-pointer" type="button">
+                  <span class="material-symbols-outlined text-[24px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">favorite</span>
+                </button>
+              </div>
+              <div class="flex items-center justify-between gap-space-xs mt-1">
+                <h2 class="font-title-md text-title-md text-on-surface truncate font-semibold">${cityCountry}</h2>
+                <div class="flex items-center gap-1 flex-shrink-0 text-on-surface">
+                  <span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="font-label-lg text-label-lg font-semibold">${rating}</span>
+                  <span class="font-body-sm text-body-sm text-on-surface-variant">(${reviewsCount})</span>
+                </div>
+              </div>
+              <p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 truncate">${item.title}</p>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">5 nights available</p>
+              <div class="mt-1 flex items-baseline gap-1.5">
+                <span class="font-title-md text-title-md text-on-surface font-bold">$${price}</span>
+                <span class="font-body-sm text-body-sm text-on-surface-variant">night</span>
+                <span class="total-price-tag font-body-sm text-body-sm text-on-surface-variant/80 ml-auto" style="display: ${isTaxChecked ? 'inline' : 'none'};">$${totalPrice} total</span>
+              </div>
+            </article>
+          `;
+        }).join('');
+
+        const label = category ? `${category} (${data.listings.length} stays)` : `${data.listings.length} stays loaded`;
+        showToast(label);
+      }
+    } catch (e) {
+      console.warn('Backend query error:', e);
+    }
+  }
+
+  function resetAllFilters() {
+    activeCategory = '';
+    activeSearch = '';
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) searchInput.value = '';
+    fetchDynamicListings();
+  }
+
+  async function toggleSaveListing(listingId) {
+    const token = localStorage.getItem('roamly_token');
+    if (!token) {
+      showToast('Please sign in to save stays to your Wishlist');
+      setTimeout(() => {
+        window.location.href = '/login';
+      }, 1000);
+      return;
+    }
+    showToast('Saved to your Wishlist!');
+  }
+
+  // Load from backend when page is ready
+  window.addEventListener('DOMContentLoaded', () => {
+    fetchDynamicListings();
+
+    // Toggle user dropdown menu (Log in / Sign up)
+    const userMenuBtn = document.getElementById('user-menu-btn');
+    const userDropdown = document.getElementById('user-dropdown-menu');
+    if (userMenuBtn && userDropdown) {
+      userMenuBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        userDropdown.classList.toggle('hidden');
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!userMenuBtn.contains(e.target) && !userDropdown.contains(e.target)) {
+          userDropdown.classList.add('hidden');
+        }
+      });
+    }
+
+    // Category carousel clicks with active indicator
+    const categoryButtons = document.querySelectorAll('.category-btn');
+    categoryButtons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const cat = btn.getAttribute('data-category') || '';
+        activeCategory = cat;
+
+        // Visual active state update
+        categoryButtons.forEach(b => {
+          b.className = 'category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface-variant hover:text-on-surface transition-colors pb-2';
+        });
+        btn.className = 'category-btn group flex flex-col items-center gap-space-xs flex-shrink-0 cursor-pointer text-on-surface transition-colors pb-2 relative after:content-[\'\'] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-8 after:h-[2px] after:bg-on-surface font-semibold';
+
+        fetchDynamicListings(cat, activeSearch);
+      });
+    });
+
+    // Search bar click & Enter key
+    const searchBtn = document.getElementById('search-btn');
+    const searchInput = document.getElementById('search-input');
+
+    function performSearch() {
+      const q = searchInput ? searchInput.value.trim() : '';
+      activeSearch = q;
+      // Searching by keyword searches everywhere
+      fetchDynamicListings(activeCategory, q);
+    }
+
+    if (searchBtn) searchBtn.addEventListener('click', performSearch);
+    if (searchInput) {
+      searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') performSearch();
+      });
+      // Live search on debounced input
+      let searchTimeout;
+      searchInput.addEventListener('input', () => {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+          performSearch();
+        }, 400);
+      });
+    }
+
+    // Tax toggle
+    const taxToggle = document.getElementById('tax-toggle');
+    if (taxToggle) {
+      taxToggle.addEventListener('change', () => {
+        const isChecked = taxToggle.checked;
+        document.querySelectorAll('.total-price-tag').forEach(el => {
+          el.style.display = isChecked ? 'inline' : 'none';
+        });
+      });
+    }
+
+    // Filter modal Apply button
+    const applyFiltersBtn = document.getElementById('apply-filters-btn');
+    if (applyFiltersBtn) {
+      applyFiltersBtn.addEventListener('click', () => {
+        const minP = document.getElementById('price-min')?.value || '';
+        const maxP = document.getElementById('price-max')?.value || '';
+        fetchDynamicListings(activeCategory, activeSearch, minP, maxP);
+      });
+    }
+
+    // Show Map floating button
+    const showMapBtn = document.querySelector('button span.material-symbols-outlined')?.parentElement;
+    document.querySelectorAll('button').forEach(b => {
+      if (b.textContent.includes('Show map')) {
+        b.addEventListener('click', () => {
+          showToast('Interactive Map: 6 verified stays on Positano, Malibu, Aspen, and SF');
+        });
+      }
+    });
+  });
+</script>
+</body></html>

@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"background":"#fcf9f8","surface-container-high":"#eae7e7","inverse-surface":"#303030","inverse-on-surface":"#f3f0ef","on-secondary":"#ffffff","surface-container-lowest":"#ffffff","on-primary":"#ffffff","on-surface-variant":"#5c3f41","secondary-fixed":"#ffdada","on-tertiary-container":"#f3ffff","on-error":"#ffffff","primary-container":"#e21e4a","on-primary-fixed-variant":"#920029","tertiary-fixed":"#91f2f7","inverse-primary":"#ffb2b6","on-primary-container":"#fffbff","primary-fixed-dim":"#ffb2b6","tertiary-container":"#008287","primary":"#ba0036","on-background":"#1b1c1c","surface-bright":"#fcf9f8","surface-container-low":"#f6f3f2","surface-tint":"#be0038","surface-container-highest":"#e5e2e1","error":"#ba1a1a","on-tertiary":"#ffffff","outline":"#906f70","secondary":"#ba0033","on-surface":"#1b1c1c","surface-variant":"#e5e2e1","outline-variant":"#e5bdbe","surface":"#fcf9f8","on-tertiary-fixed-variant":"#004f52","on-error-container":"#93000a","secondary-fixed-dim":"#ffb3b5","primary-fixed":"#ffdada","tertiary-fixed-dim":"#74d6db","on-tertiary-fixed":"#002021","surface-dim":"#dcd9d9","error-container":"#ffdad6","on-secondary-fixed-variant":"#920026","surface-container":"#f0eded","on-secondary-container":"#fffbff","secondary-container":"#e51344","on-secondary-fixed":"#40000b","tertiary":"#00676b","on-primary-fixed":"#40000d"},borderRadius:{DEFAULT:"1rem",lg:"2rem",xl:"3rem",full:"9999px"},spacing:{"space-lg":"1rem","space-md":"0.75rem","space-xl":"1.5rem",gutter:"1.5rem","space-sm":"0.5rem","space-xs":"0.25rem",margin:"2.5rem"},fontFamily:{"label-caps":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],display:["Plus Jakarta Sans"]},fontSize:{"label-caps":["0.6875rem",{lineHeight:"0.875rem",letterSpacing:"0.04em",fontWeight:"700"}],"title-md":["1rem",{lineHeight:"1.375rem",fontWeight:"600"}],"body-sm":["0.875rem",{lineHeight:"1.25rem",fontWeight:"400"}],"body-md":["0.9375rem",{lineHeight:"1.375rem",fontWeight:"400"}],"label-md":["0.75rem",{lineHeight:"1rem",fontWeight:"600"}],"body-lg":["1.125rem",{lineHeight:"1.625rem",fontWeight:"400"}],"headline-sm":["1.25rem",{lineHeight:"1.625rem",letterSpacing:"-0.005em",fontWeight:"600"}],"headline-md":["1.625rem",{lineHeight:"2rem",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-lg":["2rem",{lineHeight:"2.5rem",letterSpacing:"-0.015em",fontWeight:"600"}],"label-lg":["0.875rem",{lineHeight:"1.125rem",fontWeight:"600"}],display:["3rem",{lineHeight:"3.5rem",letterSpacing:"-0.02em",fontWeight:"700"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-margin flex items-center justify-between"><a class="flex items-center gap-space-sm text-primary flex-shrink-0" data-path="stays" href="/explore"><img alt="Roamly Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrDBITGy1ffWtr_mMRh-5px0qHBi_X6w2a_r3hiOzs6MYPirlSvTl2tU8VOCf_uFBFrOdDjlgmb09KNeG1RLL9oDoUg8CVg9uPAlYz4gr2HrLXw6hOISqO61Cin5puETkTT44c5zwkb7wuiy6tqLHqv0Uuq-c0GR-U0_oC1u1MWr0OKwmpLg3jlLHOgonQUmmKaus_4AenhLFFuZ9tqVabHcCFHsDFvfuWjaQfeKSaGVGg"/><span class="font-headline-sm text-headline-sm tracking-tight">roamly</span></a><nav class="hidden md:flex items-center gap-space-xl relative" data-active-classes="text-on-surface font-title-md after:content-[''] after:absolute after:bottom-[-26px] after:left-0 after:right-0 after:h-[2px] after:bg-on-surface"><a aria-current="page" class="relative py-space-sm transition-colors text-on-surface font-title-md after:content-[''] after:absolute after:bottom-[-26px] after:left-0 after:right-0 after:h-[2px] after:bg-on-surface" data-path="stays" href="/explore">Stays</a><a class="relative py-space-sm font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="experiences" href="/explore">Experiences</a><a class="relative py-space-sm font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="online-experiences" href="/explore">Online Experiences</a></nav><div class="flex items-center gap-space-sm flex-shrink-0"><a class="hidden sm:inline-flex items-center px-space-md py-space-sm rounded-full font-label-lg text-label-lg text-on-surface hover:bg-surface-container-low transition-colors" data-path="roamly-your-home" href="/host">Roamly your home</a><button aria-label="Choose a language and currency" class="p-space-sm rounded-full text-on-surface hover:bg-surface-container-low transition-colors flex items-center justify-center cursor-pointer" type="button"><span class="material-symbols-outlined text-[20px]">language</span></button><a href="/profile" class="flex items-center gap-space-md pl-space-md pr-space-xs py-space-xs rounded-full bg-surface-container-lowest hover:shadow-[0_2px_4px_rgba(0,0,0,0.18)] transition-all shadow-[0_1px_2px_rgba(0,0,0,0.08),0_4px_12px_rgba(0,0,0,0.05)] cursor-pointer"><span class="material-symbols-outlined text-[20px] text-on-surface-variant">menu</span><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgl57WubYPo6aP7zLb-XCb7ydh6htrxpo7IFgWvUwPir4Q-KAZkKYDn0iHfyqYHBktjzpHtuQnnu8EUMZCMnX9z5xsrr86SIn9u_T-EKoAe9aDWJ_1gav3qH3QWKzv1VPlElPDwFnGm4jSatIn4eTYobiJ_0V0elpJFnKB-y6Yi_yMT3eprPFrIlSiiqHGuWzSnJHeT0i286_hlLRanfRCnAcaNRK1-pLJhrdncFIO"/></a></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Inner Page Container: follows shell's px-margin -->
+<div class="w-full max-w-[1440px] mx-auto px-4 sm:px-8 lg:px-margin pt-6 pb-20">
+<!-- Top Back Navigation -->
+<div class="mb-4">
+  <a href="/explore" onclick="event.preventDefault(); window.history.length > 1 ? window.history.back() : window.location.href='/explore'" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg transition-all shadow-sm hover:scale-[1.02] cursor-pointer">
+    <span class="material-symbols-outlined text-[18px]">arrow_back</span>
+    <span>Back to stays</span>
+  </a>
+</div>
+<!-- Title & Action Bar -->
+<div class="flex flex-col gap-space-sm mb-6">
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+        Villa Bellissima — Clifftop Infinity Pool &amp; Panoramic Amalfi Coast Views
+      </h1>
+<div class="flex flex-wrap items-center justify-between gap-y-3">
+<div class="flex flex-wrap items-center gap-x-2 font-body-sm text-body-sm text-on-surface">
+<div class="flex items-center gap-1 font-title-md text-title-md">
+<span class="material-symbols-outlined text-[18px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4.98</span>
+</div>
+<span class="text-outline">·</span>
+<a class="font-title-md text-title-md underline hover:text-primary transition-colors" href="#reviews-section">128 reviews</a>
+<span class="text-outline">·</span>
+<div class="flex items-center gap-1 font-title-md text-title-md">
+<span class="material-symbols-outlined text-[17px] text-primary" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span>Superhost</span>
+</div>
+<span class="text-outline">·</span>
+<span class="text-on-surface underline font-title-md text-title-md cursor-pointer hover:text-primary transition-colors">Positano, Campania, Italy</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="inline-flex items-center gap-2 px-3.5 py-2 rounded-full hover:bg-surface-container-low text-on-surface font-title-md text-title-md transition-all active:scale-95 cursor-pointer" id="btn-share" type="button">
+<span class="material-symbols-outlined text-[20px]">ios_share</span>
+<span>Share</span>
+</button>
+<button class="inline-flex items-center gap-2 px-3.5 py-2 rounded-full hover:bg-surface-container-low text-on-surface font-title-md text-title-md transition-all active:scale-95 cursor-pointer" id="btn-save" type="button">
+<span class="material-symbols-outlined text-[20px] text-primary" id="save-icon">favorite_border</span>
+<span id="save-text">Save</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Signature 5-Photo Mosaic Grid -->
+<div class="relative w-full rounded-2xl overflow-hidden mb-10 shadow-sm">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-2 h-[380px] sm:h-[460px] lg:h-[520px]">
+<!-- Dominant Main Photo (Left 2 columns) -->
+<div class="md:col-span-2 relative group overflow-hidden h-full cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" data-alt="Breathtaking wide view of Villa Bellissima perched on the sunlit cliffs of Positano overlooking the sparkling turquoise Mediterranean Sea. The whitewashed luxury Italian villa features arched terracotta terraces, pink bougainvillea draping stone walls, and a spectacular heated infinity pool reflecting the golden afternoon sky. Ultra high resolution luxury architectural travel photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDv85jkRO9p0EuKYMoDLSCS2iP_cF2uQRSVNgqWimh7ybcomVncWJNcnFJ_foagvbT5YoOyfqON3PuyyVX4Glv-Pj1JRoCcARtV-k0o89GT_gH-l3S_vW8HL45PdSUnCKn-d7iOHNbbb1VV6h0QXzQUo6N2ohN4aQcWxYWsm6T4My2Ix7FamujdTQyCMdVYBVkKX0qbau925QT2kf6YIV6l3zjrTeVRb3c-Qd3ZxoBS"/>
+<div class="absolute inset-0 bg-inverse-surface/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+</div>
+<!-- 4 Grid Sub-Photos (Right 2 columns in 2x2 grid) -->
+<div class="hidden md:grid md:col-span-2 grid-cols-2 gap-2 h-full">
+<div class="relative group overflow-hidden h-full cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" data-alt="Crystal clear heated infinity pool of luxury Positano cliffside villa with submerged loungers overlooking the dramatic coastline and Mediterranean waves below. Sunlight caressing limestone tiles and coastal cypress trees under clear blue Italian sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDC4DVJ1t0-wNbARjq_izRx2hByeyXlxIF8tdn85_x95MY964sLgwwqHvKIdt8HT4vZqKd94CBliDUl-F7Yy2TLcK_P7y1eu8yq4Sm2-4X0xxsClkqQKa84up11gqs7goQCksdy09JQCxhubuXWBvUlqfDmxbDz-EHVy1H8IuQ8xbF1-i34t5fGmMK-LKJ1bI_wWJbWHPvJXQkD-e7MOOuG8TyvRiX97B9-RpXbrKgq"/>
+<div class="absolute inset-0 bg-inverse-surface/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+</div>
+<div class="relative group overflow-hidden h-full cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" data-alt="Expansive outdoor travertine terrace lounge with elegant woven sun loungers, crisp white canvas umbrellas, a stone dining pergola shaded by lush Amalfi lemon vines, and panoramic ocean vistas in warm daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzJu10WE6QW6gpV0-KqG6j8jFJM-fS987fSd5F1FEs8mlIhgWphDUVQxdMq2QjdAHw7I5e8Qr9ED3TwC4nbFZEeYpEPfD59v46zw4Eltab8LJaIiy83jWVmPPsC-rZhBTesjhEXeBY7-VqcPfa2RvDXHrGzS4wK5HdUS_bRS6i752pCbClntYpvpfOZoFEysg51JZmZOR835ttb8q92Bpi8j9F4LEg3gU9ivMHrCVo"/>
+<div class="absolute inset-0 bg-inverse-surface/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+</div>
+<div class="relative group overflow-hidden h-full cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" data-alt="Master bedroom suite with king-size bed dressed in high-thread-count white Italian linen. Floor-to-ceiling French doors open onto a private stone balcony with sweeping sea views. Natural light and warm minimalist coastal decor." src="https://lh3.googleusercontent.com/aida-public/AB6AXuASxze4KeIQodvH1IYo35OOVUGmm1VC4cVPDn04VTlIo-_qqdB7sijTClIR2I39OK4mmE00Z0DtF0at_knoVwWrS5wKlcz39ap9VPHBxQdjawlhwARQYKmP30M50tLk-1WXSMtY13xYdLUQy2_vRFst9Dz4rEiX1SeLLU6AZJB_WihiczAFRkmLtZ3g0TQoP29-jzJaPgI0YOXAt92IwWte7uIP4sgVI8kQsL0EHToh"/>
+<div class="absolute inset-0 bg-inverse-surface/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+</div>
+<div class="relative group overflow-hidden h-full cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" data-alt="Spacious gourmet chef kitchen with Carrara marble waterfall island, polished brass tapware, handmade ceramic Majolica backsplash tiles, professional range cooker, and bowls of fresh organic lemons." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpwhUNGpl_ycZeNwTmw3jHMEmtd9IcGONfZzF66BrRBM6JouOl_7c9lm81k3U_JuzJoIY-7eXlAHqtIUkkdl9Qw-ou6wioBHse3gRgxry1pNfyWf7D-eRqJ6ARV-FX-jmQl7nUN6Dt5PnXCTDeMkEVgOKQ93XXV0_JQSIIGa7qtX2j0_T9J2MaNA6RdARjz5RCSa46G6x1JuEA43WvnN3buKQ80O4OYCrLwKWt9vuY"/>
+<div class="absolute inset-0 bg-inverse-surface/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+</div>
+</div>
+</div>
+<!-- 'Show all photos' Pill Trigger Button -->
+<button class="absolute bottom-4 right-4 z-10 flex items-center gap-2 px-4 py-2 bg-surface-container-lowest text-on-surface hover:bg-surface-container-low font-title-md text-body-sm font-semibold rounded-lg shadow-md hover:shadow-lg transition-all active:scale-95 cursor-pointer" id="show-photos-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">grid_view</span>
+<span>Show all 48 photos</span>
+</button>
+</div>
+<!-- Main Two-Column Layout (65% Left / 35% Sticky Right) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start relative">
+<!-- LEFT CONTENT COLUMN (approx 65% = 8 cols) -->
+<div class="lg:col-span-8 flex flex-col gap-8 min-w-0">
+<!-- Host Header Info Row -->
+<div class="flex items-center justify-between pb-8 bg-surface">
+<div class="flex flex-col gap-1 pr-4">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">
+              Entire villa hosted by Matteo &amp; Elena
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              8 guests · 4 bedrooms · 5 beds · 4.5 baths
+            </p>
+</div>
+<div class="relative flex-shrink-0">
+<img class="w-16 h-16 rounded-full object-cover ring-2 ring-surface-container-high" data-alt="Warm and welcoming portrait of Italian villa superhost couple Matteo and Elena smiling warmly in front of a sunlit Amalfi terrace, Mediterranean style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCV9a0JafaRV9PSgZmKPl4MjO8JExu6OulWJYOTwJf4yCbqvnfkNRMOTHTL4r0oBwotxyNUV2JYtE79PHUrCHX6idPyK5kFNodPNKtNzq7uoSpYh4AK_hGSPYNcQV4eMnzmsDR_o9ddtC0Mat_IKulMmbdliPSQDA2BfIGZptm0rGVvIsR80VSy5YDiHADoJ0g7VCUumRj6Lp9ME16GQl21e8JBh3M715mXro0rnZHj"/>
+<div class="absolute -bottom-1 -right-1 bg-primary text-on-primary rounded-full p-1 flex items-center justify-center shadow-sm" title="Superhost">
+<span class="material-symbols-outlined text-[13px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</div>
+<div class="h-[1px] w-full bg-surface-container-high"></div>
+<!-- Highlight Perks Section -->
+<div class="flex flex-col gap-6 py-2">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-[28px] text-on-surface mt-0.5">desk</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Dedicated workspace</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">A private ocean-facing executive study with ultra-fast 250 Mbps fiber internet and ergonomic seating.</span>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-[28px] text-on-surface mt-0.5">key</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Self check-in with lockbox</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Check yourself into the villa seamlessly with the smart code keypad anytime after 3:00 PM.</span>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-[28px] text-on-surface mt-0.5">calendar_month</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Free cancellation before Apr 28</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Get a full 100% refund up to 14 days before your scheduled arrival date.</span>
+</div>
+</div>
+</div>
+<div class="h-[1px] w-full bg-surface-container-high"></div>
+<!-- RoamCover Guarantee Banner -->
+<div class="p-6 rounded-2xl bg-surface-container-low flex flex-col gap-2 relative overflow-hidden">
+<div class="flex items-center gap-1.5 font-headline-sm text-headline-sm tracking-tight text-on-surface">
+<span class="text-primary font-bold">roam</span><span class="font-bold">cover</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Every booking includes complimentary protection from Host cancellations, listing inaccuracies, and other check-in disruptions.
+          </p>
+<a class="font-title-md text-title-md font-semibold underline text-on-surface hover:text-primary transition-colors inline-block w-fit mt-1" href="#">
+            Learn more
+          </a>
+</div>
+<div class="h-[1px] w-full bg-surface-container-high"></div>
+<!-- Description Section with Expandable View -->
+<div class="flex flex-col gap-4">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">About this space</h3>
+<div class="font-body-md text-body-md text-on-surface flex flex-col gap-3 leading-relaxed">
+<p>
+              Suspended between the azure sky and the Mediterranean Sea, <span class="font-semibold">Villa Bellissima</span> represents the pinnacle of Amalfi Coast luxury. Originally engineered into the dramatic limestone cliffs of Positano in the 1920s, this historic estate has been meticulously restored with modern architectural elegance while preserving hand-crafted Vietri ceramic tiles, original archways, and centuries-old olive gardens.
+            </p>
+<p>
+              Step through monumental glass doors onto the multi-tiered travertine sun deck. Plunge into your private 14-meter heated saltwater infinity pool, contoured seamlessly into the cliff edge, where the water appears to spill straight into the Gulf of Salerno. A fragrant, private lemon grove invites peaceful morning strolls before your personal concierge prepares breakfast on the shaded sea-terrace.
+            </p>
+<div class="hidden flex-col gap-3" id="extra-desc">
+<p>
+                The villa offers four opulent bedroom suites, each featuring en-suite spa bathrooms crafted in white Carrara marble with rainfall showers and standalone soaking tubs. A fully equipped chef's kitchen, wine cellar stocked with regional Campania vintages, and a private pathway directly to the secluded coastal cove complete this once-in-a-lifetime retreat.
+              </p>
+<p>
+                Daily housekeeping and local breakfast delivery are included. Matteo &amp; Elena’s concierge team is on call 24/7 to organize private yacht charters to Capri, private helicopter transfers, and Michelin-starred in-villa dining experiences.
+              </p>
+</div>
+</div>
+<button class="inline-flex items-center gap-1 font-title-md text-title-md font-semibold underline text-on-surface hover:text-primary transition-colors cursor-pointer w-fit mt-1" id="toggle-desc-btn" type="button">
+<span>Show more</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+<div class="h-[1px] w-full bg-surface-container-high"></div>
+<!-- Sleeping Arrangements Carousel / Bento -->
+<div class="flex flex-col gap-4">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Where you'll sleep</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<!-- Bedroom 1 -->
+<div class="p-5 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-3">
+<span class="material-symbols-outlined text-[28px] text-on-surface-variant">bed</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Bedroom 1</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">1 king bed · En-suite bath</span>
+</div>
+</div>
+<!-- Bedroom 2 -->
+<div class="p-5 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-3">
+<span class="material-symbols-outlined text-[28px] text-on-surface-variant">bed</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Bedroom 2</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">1 queen bed · Sea balcony</span>
+</div>
+</div>
+<!-- Bedroom 3 -->
+<div class="p-5 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-3">
+<span class="material-symbols-outlined text-[28px] text-on-surface-variant">single_bed</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Bedroom 3</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">2 single beds · Garden view</span>
+</div>
+</div>
+<!-- Bedroom 4 -->
+<div class="p-5 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-3">
+<span class="material-symbols-outlined text-[28px] text-on-surface-variant">bed</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Bedroom 4</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">1 king bed · Terraced porch</span>
+</div>
+</div>
+</div>
+</div>
+<div class="h-[1px] w-full bg-surface-container-high"></div>
+<!-- Amenities Section -->
+<div class="flex flex-col gap-5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">What this place offers</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8">
+<div class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-[24px] text-on-surface">waves</span>
+<span class="font-body-md text-body-md">Scenic sea view</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-[24px] text-on-surface">beach_access</span>
+<span class="font-body-md text-body-md">Beach access — Private cove path</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-[24px] text-on-surface">wifi</span>
+<span class="font-body-md text-body-md">Fast wifi — 250 Mbps</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-[24px] text-on-surface">desk</span>
+<span class="font-body-md text-body-md">Dedicated executive workspace</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-[24px] text-on-surface">pool</span>
+<span class="font-body-md text-body-md">Private heated infinity pool</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-[24px] text-on-surface">skillet</span>
+<span class="font-body-md text-body-md">Chef's kitchen with Carrara marble</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-[24px] text-on-surface">local_parking</span>
+<span class="font-body-md text-body-md">Free private on-premise parking (2 cars)</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-[24px] text-on-surface">local_laundry_service</span>
+<span class="font-body-md text-body-md">Washer &amp; dryer in-unit</span>
+</div>
+</div>
+<button class="mt-2 px-6 py-3 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-title-md text-title-md font-semibold transition-all active:scale-95 cursor-pointer w-fit" type="button">
+            Show all 42 amenities
+          </button>
+</div>
+<div class="h-[1px] w-full bg-surface-container-high"></div>
+<!-- Interactive Calendar Date Range Picker View -->
+<div class="flex flex-col gap-4">
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">5 nights in Positano</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">May 12, 2025 – May 17, 2025</span>
+</div>
+<!-- Dual Month Mock Calendar -->
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Month 1: May 2025 -->
+<div class="flex flex-col">
+<div class="flex items-center justify-between mb-4">
+<span class="font-title-md text-title-md font-bold text-on-surface">May 2025</span>
+<span class="material-symbols-outlined text-outline text-[20px] cursor-pointer hover:text-on-surface">chevron_left</span>
+</div>
+<div class="grid grid-cols-7 gap-1 text-center font-label-md text-label-md text-on-surface-variant mb-2">
+<span>Su</span><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span>
+</div>
+<div class="grid grid-cols-7 gap-1 text-center font-body-sm text-body-sm">
+<span class="py-2 text-outline/50">27</span>
+<span class="py-2 text-outline/50">28</span>
+<span class="py-2 text-outline/50">29</span>
+<span class="py-2 text-outline/50">30</span>
+<span class="py-2 text-outline">1</span>
+<span class="py-2 text-outline">2</span>
+<span class="py-2 text-outline">3</span>
+<span class="py-2 text-outline">4</span>
+<span class="py-2 text-outline">5</span>
+<span class="py-2 text-outline">6</span>
+<span class="py-2 text-outline">7</span>
+<span class="py-2 text-outline">8</span>
+<span class="py-2 text-outline">9</span>
+<span class="py-2 text-outline">10</span>
+<span class="py-2 text-outline">11</span>
+<!-- Range selection -->
+<span class="py-2 rounded-l-full bg-primary text-on-primary font-semibold">12</span>
+<span class="py-2 bg-primary-fixed text-on-primary-fixed-variant">13</span>
+<span class="py-2 bg-primary-fixed text-on-primary-fixed-variant">14</span>
+<span class="py-2 bg-primary-fixed text-on-primary-fixed-variant">15</span>
+<span class="py-2 bg-primary-fixed text-on-primary-fixed-variant">16</span>
+<span class="py-2 rounded-r-full bg-primary text-on-primary font-semibold">17</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">18</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">19</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">20</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">21</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">22</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">23</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">24</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">25</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">26</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">27</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">28</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">29</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">30</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">31</span>
+</div>
+</div>
+<!-- Month 2: June 2025 -->
+<div class="flex flex-col">
+<div class="flex items-center justify-between mb-4">
+<span class="font-title-md text-title-md font-bold text-on-surface">June 2025</span>
+<span class="material-symbols-outlined text-outline text-[20px] cursor-pointer hover:text-on-surface">chevron_right</span>
+</div>
+<div class="grid grid-cols-7 gap-1 text-center font-label-md text-label-md text-on-surface-variant mb-2">
+<span>Su</span><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span>
+</div>
+<div class="grid grid-cols-7 gap-1 text-center font-body-sm text-body-sm">
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">1</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">2</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">3</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">4</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">5</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">6</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">7</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">8</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">9</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">10</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">11</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">12</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">13</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">14</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">15</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">16</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">17</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">18</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">19</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">20</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">21</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">22</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">23</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">24</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">25</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">26</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">27</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">28</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">29</span>
+<span class="py-2 text-on-surface hover:bg-surface-container rounded-full cursor-pointer">30</span>
+<span class="py-2 text-outline/50">1</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<button class="font-title-md text-body-sm font-semibold underline text-on-surface hover:text-primary transition-colors cursor-pointer" type="button">
+                Clear dates
+              </button>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<span class="w-3 h-3 rounded-full bg-primary"></span> Selected dates
+              </div>
+</div>
+</div>
+</div>
+<div class="h-[1px] w-full bg-surface-container-high" id="reviews-section"></div>
+<!-- Reviews & Ratings Section -->
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[32px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">4.98 · 128 reviews</h3>
+</div>
+<!-- Category Rating Bars Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-3">
+<div class="flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface">Cleanliness</span>
+<div class="flex items-center gap-3 w-44">
+<div class="h-1 flex-1 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-on-surface rounded-full" style="width: 100%;"></div>
+</div>
+<span class="font-label-md text-label-md font-semibold text-on-surface w-6 text-right">5.0</span>
+</div>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface">Accuracy</span>
+<div class="flex items-center gap-3 w-44">
+<div class="h-1 flex-1 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-on-surface rounded-full" style="width: 98%;"></div>
+</div>
+<span class="font-label-md text-label-md font-semibold text-on-surface w-6 text-right">4.9</span>
+</div>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface">Communication</span>
+<div class="flex items-center gap-3 w-44">
+<div class="h-1 flex-1 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-on-surface rounded-full" style="width: 100%;"></div>
+</div>
+<span class="font-label-md text-label-md font-semibold text-on-surface w-6 text-right">5.0</span>
+</div>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface">Location</span>
+<div class="flex items-center gap-3 w-44">
+<div class="h-1 flex-1 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-on-surface rounded-full" style="width: 100%;"></div>
+</div>
+<span class="font-label-md text-label-md font-semibold text-on-surface w-6 text-right">5.0</span>
+</div>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface">Check-in</span>
+<div class="flex items-center gap-3 w-44">
+<div class="h-1 flex-1 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-on-surface rounded-full" style="width: 100%;"></div>
+</div>
+<span class="font-label-md text-label-md font-semibold text-on-surface w-6 text-right">5.0</span>
+</div>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface">Value</span>
+<div class="flex items-center gap-3 w-44">
+<div class="h-1 flex-1 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-on-surface rounded-full" style="width: 96%;"></div>
+</div>
+<span class="font-label-md text-label-md font-semibold text-on-surface w-6 text-right">4.8</span>
+</div>
+</div>
+</div>
+<!-- 2-Column Guest Review Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
+<!-- Review 1 -->
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-3">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait of an elegant woman traveler in Positano enjoying a coastal vacation, natural aesthetic lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYc8LeJymkoobw4rTvRiHcz6XEC1rplLTXzkaoADT5Jc-_2YKgaguaoMr6s7GI2Jvo9RJdhRm8LwrDNEj6i-tS2QdfN4J2Mb-1I_G3t2SbdvKSuTiLO8gFPxjwaZi9yPDUw2cUB7sHMp64dmba6Ix28gb4eed4ix1nXy998AqaE-yav3D0EqNmCsHLNWMFI6gpYIHMXeWvTPBv17nlxinyMhQa5tcKPeSUmBrrP1MI"/>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-bold text-on-surface">Sophia Vance</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">London, United Kingdom · March 2025</span>
+</div>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+                "Villa Bellissima blew our entire family away. Waking up to that horizon over the Amalfi Coast every single morning is etched into our memories forever. Matteo &amp; Elena were flawless hosts."
+              </p>
+</div>
+<!-- Review 2 -->
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-3">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait of a young male professional smiling against a scenic coastal backdrop during sunset, warm colors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYpxO0xY37r_a10P3dkmYY4O7bkDYz0yN3tt_oGL2trvVYaXiuTr-LIF-qwvQGEr7dJ0SdCLGyb4V2FtgnWQlmnRVl4B-DGWZjUHS06wp1tT6MiIiNkBQUVERR7Tfhbjk1is_fs_7xT-FyaWu2wE53AaJDoEFijtlNoZYw6dy1jwSS0Cv07qZHMfM2ScWqa3BJsiZN0RhBANTHHjvYVlKqj47iCIwe518sAFbesy8W"/>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md font-bold text-on-surface">Julian Ross</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">San Francisco, CA · February 2025</span>
+</div>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+                "The infinity pool heated to perfection on cool Positano evenings was surreal. Fast wifi allowed me to conduct two remote conference keynotes effortlessly from the study. Truly 10/10."
+              </p>
+</div>
+</div>
+<button class="mt-2 px-6 py-3 rounded-xl bg-surface-container-low hover:bg-surface-container text-on-surface font-title-md text-title-md font-semibold transition-all active:scale-95 cursor-pointer w-fit" type="button">
+            Show all 128 reviews
+          </button>
+</div>
+<div class="h-[1px] w-full bg-surface-container-high"></div>
+<!-- Location Map Exploration -->
+<div class="flex flex-col gap-4">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Where you'll be</h3>
+<span class="font-body-md text-body-md text-on-surface-variant">Positano, Campania, Italy</span>
+<div class="w-full h-80 rounded-2xl bg-cover bg-center overflow-hidden shadow-sm relative" data-location="Positano, Campania, Italy" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBMkpBS4U9QDOTEWa73qmMTeF-zXVq3GOdkf1i394Drhzra8yiDosedfsVRrtkf6A0xnCmaKevdOAzB_PuNrC9hHdT60Akuhgd2N2XA13faLQzMM3WXEVZGUVLlHMR8aDhCFhQaG3s4TuxvZyfHI5MX5Lc7zR65dyaCOkCi77wiGMtgv66GsJlYO99cSBow-1GjEmmpdzLd0cMET70PZ7mXbAbSCEXO9BdbNxFh22NE')">
+<div class="absolute inset-0 bg-inverse-surface/10"></div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary text-on-primary p-3 rounded-full shadow-xl flex items-center justify-center animate-pulse">
+<span class="material-symbols-outlined text-[24px]">villa</span>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT STICKY SIDEBAR (approx 35% = 4 cols) -->
+<div class="lg:col-span-4 sticky top-28 w-full">
+<!-- Floating Booking Widget Card -->
+<div class="w-full bg-surface-container-lowest rounded-2xl p-6 shadow-[0_6px_24px_rgba(0,0,0,0.08)] flex flex-col gap-5">
+<!-- Price Header -->
+<div class="flex items-baseline justify-between">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md font-bold text-on-surface">$420</span>
+<span class="font-body-md text-body-md text-on-surface-variant">night</span>
+</div>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.98</span>
+<span class="text-outline">·</span>
+<span class="text-on-surface-variant underline">128 reviews</span>
+</div>
+</div>
+<!-- Date & Guest Input Box -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm">
+<div class="grid grid-cols-2 bg-surface-container-low/60">
+<div class="p-3 cursor-pointer hover:bg-surface-container transition-colors">
+<span class="block font-label-caps text-label-caps text-on-surface font-bold uppercase tracking-wider">Check-in</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">5/12/2025</span>
+</div>
+<div class="p-3 cursor-pointer hover:bg-surface-container transition-colors">
+<span class="block font-label-caps text-label-caps text-on-surface font-bold uppercase tracking-wider">Checkout</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">5/17/2025</span>
+</div>
+</div>
+<div class="p-3 bg-surface-container-low/40 cursor-pointer hover:bg-surface-container transition-colors flex items-center justify-between">
+<div>
+<span class="block font-label-caps text-label-caps text-on-surface font-bold uppercase tracking-wider">Guests</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">2 guests</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">expand_more</span>
+</div>
+</div>
+<!-- Primary Reservation CTA -->
+<button class="w-full py-3.5 px-6 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-title-md text-title-md font-semibold transition-all active:scale-[0.98] shadow-md flex items-center justify-center cursor-pointer" id="reserve-btn" type="button">
+<span>Reserve</span>
+</button>
+<p class="text-center font-body-sm text-body-sm text-on-surface-variant -mt-2">
+            You won't be charged yet
+          </p>
+<!-- Price Calculation Breakdown -->
+<div class="flex flex-col gap-3 font-body-md text-body-md text-on-surface pt-2">
+<div class="flex items-center justify-between">
+<span class="underline">$420 × 5 nights</span>
+<span>$2,100</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="underline">Cleaning fee</span>
+<span>$150</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="underline">Roamly service fee</span>
+<span>$200</span>
+</div>
+</div>
+<div class="h-[1px] w-full bg-surface-container-high my-1"></div>
+<!-- Total Calculation -->
+<div class="flex items-center justify-between font-title-md text-title-md font-bold text-on-surface">
+<span>Total before taxes</span>
+<span>$2,450</span>
+</div>
+<!-- Rare Find Callout Banner -->
+<div class="p-3.5 rounded-xl bg-surface-container-low flex items-start gap-3 mt-1">
+<span class="material-symbols-outlined text-[24px] text-primary" style="font-variation-settings: 'FILL' 1;">diamond</span>
+<div class="flex flex-col">
+<span class="font-title-md text-body-sm font-bold text-on-surface">This is a rare find</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Matteo &amp; Elena's place on Roamly is usually fully booked.</span>
+</div>
+</div>
+</div>
+<!-- Report Listing Micro-Action -->
+<div class="w-full flex items-center justify-center mt-4">
+<button class="inline-flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface underline cursor-pointer" type="button">
+<span class="material-symbols-outlined text-[16px]">flag</span>
+<span>Report this listing</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Micro-interactions Script -->
+<script>
+    // Expandable About Section
+    const toggleDescBtn = document.getElementById('toggle-desc-btn');
+    const extraDesc = document.getElementById('extra-desc');
+    if (toggleDescBtn && extraDesc) {
+      toggleDescBtn.addEventListener('click', () => {
+        const isHidden = extraDesc.classList.contains('hidden');
+        if (isHidden) {
+          extraDesc.classList.remove('hidden');
+          extraDesc.classList.add('flex');
+          toggleDescBtn.querySelector('span:first-child').textContent = 'Show less';
+          toggleDescBtn.querySelector('.material-symbols-outlined').textContent = 'expand_less';
+        } else {
+          extraDesc.classList.add('hidden');
+          extraDesc.classList.remove('flex');
+          toggleDescBtn.querySelector('span:first-child').textContent = 'Show more';
+          toggleDescBtn.querySelector('.material-symbols-outlined').textContent = 'chevron_right';
+        }
+      });
+    }
+
+    // Save Heart Micro-toggle
+    const saveBtn = document.getElementById('btn-save');
+    const saveIcon = document.getElementById('save-icon');
+    const saveText = document.getElementById('save-text');
+    let isSaved = false;
+    if (saveBtn && saveIcon && saveText) {
+      saveBtn.addEventListener('click', () => {
+        isSaved = !isSaved;
+        if (isSaved) {
+          saveIcon.textContent = 'favorite';
+          saveIcon.style.fontVariationSettings = "'FILL' 1";
+          saveText.textContent = 'Saved';
+          if (typeof showToast === 'function') {
+            showToast('Saved to your Wishlist: Villa Bellissima');
+          }
+        } else {
+          saveIcon.textContent = 'favorite_border';
+          saveIcon.style.fontVariationSettings = "'FILL' 0";
+          saveText.textContent = 'Save';
+          if (typeof showToast === 'function') {
+            showToast('Removed from your Wishlist');
+          }
+        }
+      });
+    }
+
+    // Share Micro-action
+    const shareBtn = document.getElementById('btn-share');
+    if (shareBtn) {
+      shareBtn.addEventListener('click', () => {
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(window.location.href);
+          if (typeof showToast === 'function') {
+            showToast('Listing link copied to clipboard!');
+          }
+        }
+      });
+    }
+
+    // Show Photos Trigger
+    const showPhotosBtn = document.getElementById('show-photos-btn');
+    if (showPhotosBtn) {
+      showPhotosBtn.addEventListener('click', () => {
+        if (typeof showToast === 'function') {
+          showToast('Opening high-definition gallery of 48 photos...');
+        }
+      });
+    }
+
+    // Reserve Button Interaction - Connected to Backend Booking Checkout
+    const reserveBtn = document.getElementById('reserve-btn');
+    let activeListingId = 'villa_bellissima';
+
+    // Parse Listing ID from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const listingIdParam = urlParams.get('id');
+    if (listingIdParam) {
+      activeListingId = listingIdParam;
+      loadDynamicListing(listingIdParam);
+    }
+
+    async function loadDynamicListing(id) {
+      try {
+        const res = await fetch(`http://localhost:5000/api/listings/${id}`);
+        const data = await res.json();
+        if (data.success && data.listing) {
+          const l = data.listing;
+          activeListingId = l._id;
+
+          const titleEl = document.querySelector('h1');
+          if (titleEl && l.title) titleEl.textContent = l.title;
+
+          const priceEl = document.querySelector('.font-title-md span');
+          if (l.price?.basePrice) {
+            document.querySelectorAll('span').forEach(s => {
+              if (s.textContent.includes('$420')) {
+                s.textContent = s.textContent.replace('$420', `$${l.price.basePrice}`);
+              }
+            });
+          }
+        }
+      } catch (err) {
+        console.log('Using static Villa Bellissima view');
+      }
+    }
+
+    if (reserveBtn) {
+      reserveBtn.addEventListener('click', () => {
+        if (typeof showToast === 'function') {
+          showToast('Proceeding to Confirm & Pay checkout...');
+        }
+        setTimeout(() => {
+          window.location.href = `../roamly_confirm_and_pay/code.html?listingId=${encodeURIComponent(activeListingId)}`;
+        }, 600);
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl"><div class="w-full px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter pb-space-xl"><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-on-surface">Support</span><div class="flex flex-col gap-space-sm"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="help-center" href="#">Help Center</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="aircover" href="#">AirCover</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="anti-discrimination" href="#">Anti-discrimination</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="disability-support" href="#">Disability support</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="cancellation-options" href="#">Cancellation options</a></div></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-on-surface">Community</span><div class="flex flex-col gap-space-sm"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="disaster-relief" href="#">Roamly.org disaster relief</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="combating-discrimination" href="#">Combating discrimination</a></div></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-on-surface">Hosting</span><div class="flex flex-col gap-space-sm"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="roamly-your-home" href="#">Roamly your home</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="aircover-hosts" href="#">AirCover for Hosts</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="hosting-resources" href="#">Hosting resources</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="community-forum" href="#">Community forum</a></div></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-on-surface">Roamly</span><div class="flex flex-col gap-space-sm"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="newsroom" href="#">Newsroom</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="new-features" href="#">New features</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="careers" href="#">Careers</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="investors" href="#">Investors</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="gift-cards" href="#">Gift cards</a></div></div></div><div class="pt-space-lg flex flex-col lg:flex-row items-center justify-between gap-space-md"><div class="flex flex-wrap items-center gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><span>© 2025 Roamly, Inc.</span><span>·</span><a class="hover:text-on-surface transition-colors" data-path="privacy" href="#">Privacy</a><span>·</span><a class="hover:text-on-surface transition-colors" data-path="terms" href="#">Terms</a><span>·</span><a class="hover:text-on-surface transition-colors" data-path="sitemap" href="#">Sitemap</a><span>·</span><a class="hover:text-on-surface transition-colors" data-path="company-details" href="#">Company details</a></div><div class="flex items-center gap-space-xl font-label-lg text-label-lg text-on-surface"><div class="flex items-center gap-space-md"><button class="flex items-center gap-space-xs hover:underline cursor-pointer" type="button"><span class="material-symbols-outlined text-[18px]">language</span>English (US)</button><button class="hover:underline cursor-pointer" type="button">$ USD</button></div><div class="flex items-center gap-space-md text-on-surface-variant"><a class="hover:text-on-surface transition-colors flex items-center" data-path="social-global" href="#"><span class="material-symbols-outlined text-[20px]">public</span></a><a class="hover:text-on-surface transition-colors flex items-center" data-path="social-share" href="#"><span class="material-symbols-outlined text-[20px]">share</span></a><a class="hover:text-on-surface transition-colors flex items-center" data-path="social-chat" href="#"><span class="material-symbols-outlined text-[20px]">chat_bubble</span></a></div></div></div></div></footer>
+<!-- Filters Modal Overlay Container -->
+<div class="fixed inset-0 z-[100] hidden items-center justify-center p-4 sm:p-6 transition-all duration-300" id="filters-modal-overlay">
+<!-- Backdrop -->
+<div class="fixed inset-0 bg-inverse-surface/60 backdrop-blur-sm opacity-0 transition-opacity duration-300" id="filters-backdrop"></div>
+<!-- Modal Dialog -->
+<div class="relative z-10 w-full max-w-2xl lg:max-w-3xl max-h-[901px] bg-surface-container-lowest rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.25)] flex flex-col overflow-hidden scale-95 opacity-0 transition-all duration-300 transform" id="filters-dialog">
+<!-- Modal Header (Sticky) -->
+<div class="sticky top-0 z-20 flex items-center justify-between px-6 py-4 border-b border-surface-variant bg-surface-container-lowest/95 backdrop-blur-sm">
+<button aria-label="Close filters" class="w-9 h-9 rounded-full hover:bg-surface-container transition-colors flex items-center justify-center text-on-surface cursor-pointer" id="close-filters-btn" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<h2 class="font-title-md text-title-md font-bold text-on-surface text-center flex-1 pr-9">Filters</h2>
+</div>
+<!-- Scrollable Modal Body -->
+<div class="overflow-y-auto px-6 sm:px-8 py-6 space-y-8 divide-y divide-surface-variant text-on-surface">
+<!-- Section 1: Type of Place -->
+<div class="pt-2">
+<h3 class="font-title-md text-title-md font-semibold text-on-surface mb-1">Type of place</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">Search rooms, entire homes, or any type of space</p>
+<div class="grid grid-cols-3 p-1 bg-surface-container rounded-2xl gap-1" id="place-type-group">
+<button class="place-type-btn py-3 px-3 rounded-xl font-label-lg text-label-lg transition-all text-center cursor-pointer bg-surface-container-lowest text-on-surface shadow-sm font-semibold" data-value="any" type="button">Any type</button>
+<button class="place-type-btn py-3 px-3 rounded-xl font-label-lg text-label-lg transition-all text-center cursor-pointer text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low" data-value="room" type="button">Room</button>
+<button class="place-type-btn py-3 px-3 rounded-xl font-label-lg text-label-lg transition-all text-center cursor-pointer text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low" data-value="entire" type="button">Entire home</button>
+</div>
+</div>
+<!-- Section 2: Price Range & Histogram -->
+<div class="pt-6">
+<h3 class="font-title-md text-title-md font-semibold text-on-surface mb-0.5">Price range</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-5">Nightly prices before taxes and fees</p>
+<div class="w-full flex items-end gap-[3px] h-24 px-4 mb-2 select-none">
+<div class="flex-1 bg-surface-variant rounded-t h-[15%]"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[28%]"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[42%]"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[55%]"></div>
+<div class="flex-1 bg-primary/80 rounded-t h-[75%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[92%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[100%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[85%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[70%] transition-colors"></div>
+<div class="flex-1 bg-primary/90 rounded-t h-[88%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[65%] transition-colors"></div>
+<div class="flex-1 bg-primary rounded-t h-[58%] transition-colors"></div>
+<div class="flex-1 bg-primary/80 rounded-t h-[48%] transition-colors"></div>
+<div class="flex-1 bg-primary/80 rounded-t h-[40%] transition-colors"></div>
+<div class="flex-1 bg-primary/70 rounded-t h-[32%] transition-colors"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[24%]"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[18%]"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[10%]"></div>
+<div class="flex-1 bg-surface-variant rounded-t h-[6%]"></div>
+</div>
+<div class="relative w-full h-1 bg-surface-variant mb-6">
+<div class="absolute left-[20%] right-[22%] top-0 bottom-0 bg-primary"></div>
+<div class="absolute left-[20%] top-1/2 -translate-y-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-white border-2 border-primary shadow-md cursor-grab"></div>
+<div class="absolute right-[22%] top-1/2 -translate-y-1/2 translate-x-1/2 w-6 h-6 rounded-full bg-white border-2 border-primary shadow-md cursor-grab"></div>
+</div>
+<div class="grid grid-cols-2 gap-4 items-center">
+<div class="border border-outline-variant/80 focus-within:border-on-surface rounded-2xl p-3 bg-surface-container-lowest transition-colors">
+<span class="block font-label-caps text-label-caps text-on-surface-variant">Minimum</span>
+<div class="flex items-center text-on-surface mt-0.5">
+<span class="font-title-md mr-1">$</span>
+<input class="w-full border-0 p-0 text-title-md font-semibold focus:ring-0 outline-none bg-transparent" id="price-min" type="number" value="75"/>
+</div>
+</div>
+<div class="border border-outline-variant/80 focus-within:border-on-surface rounded-2xl p-3 bg-surface-container-lowest transition-colors">
+<span class="block font-label-caps text-label-caps text-on-surface-variant">Maximum</span>
+<div class="flex items-center text-on-surface mt-0.5">
+<span class="font-title-md mr-1">$</span>
+<input class="w-full border-0 p-0 text-title-md font-semibold focus:ring-0 outline-none bg-transparent" id="price-max" type="number" value="650"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Section 3: Rooms and Beds -->
+<div class="pt-6 space-y-5">
+<div>
+<h3 class="font-title-md text-title-md font-semibold text-on-surface mb-0.5">Rooms and beds</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">Choose bedroom and bed configurations</p>
+</div>
+<div>
+<span class="block font-body-md text-body-md text-on-surface mb-2.5 font-medium">Bedrooms</span>
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 count-pill-row" data-field="bedrooms">
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium transition-all cursor-pointer bg-on-surface text-surface-container-lowest border-on-surface" type="button">Any</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">1</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">2</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">3</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">4</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">5</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">6</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">7</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">8+</button>
+</div>
+</div>
+<div>
+<span class="block font-body-md text-body-md text-on-surface mb-2.5 font-medium">Beds</span>
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 count-pill-row" data-field="beds">
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium transition-all cursor-pointer bg-on-surface text-surface-container-lowest border-on-surface" type="button">Any</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">1</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">2</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">3</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">4</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">5</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">6+</button>
+</div>
+</div>
+<div>
+<span class="block font-body-md text-body-md text-on-surface mb-2.5 font-medium">Bathrooms</span>
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 count-pill-row" data-field="bathrooms">
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium transition-all cursor-pointer bg-on-surface text-surface-container-lowest border-on-surface" type="button">Any</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">1</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">2</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">3</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">4</button>
+<button class="count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface" type="button">5+</button>
+</div>
+</div>
+</div>
+<!-- Section 4: Property Types -->
+<div class="pt-6">
+<h3 class="font-title-md text-title-md font-semibold text-on-surface mb-1">Property type</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">Filter by the architecture or type of building</p>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+<div class="prop-type-card border-2 border-on-surface bg-surface-container-low/40 rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all hover:border-on-surface active:scale-[0.98]" role="button" tabindex="0">
+<span class="material-symbols-outlined text-[32px] text-primary">cottage</span>
+<span class="font-title-md text-title-md font-semibold text-on-surface">House</span>
+</div>
+<div class="prop-type-card border border-surface-variant hover:border-on-surface rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all active:scale-[0.98]" role="button" tabindex="0">
+<span class="material-symbols-outlined text-[32px] text-on-surface-variant">apartment</span>
+<span class="font-title-md text-title-md font-semibold text-on-surface">Apartment</span>
+</div>
+<div class="prop-type-card border border-surface-variant hover:border-on-surface rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all active:scale-[0.98]" role="button" tabindex="0">
+<span class="material-symbols-outlined text-[32px] text-on-surface-variant">cabin</span>
+<span class="font-title-md text-title-md font-semibold text-on-surface">Guesthouse</span>
+</div>
+<div class="prop-type-card border border-surface-variant hover:border-on-surface rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all active:scale-[0.98]" role="button" tabindex="0">
+<span class="material-symbols-outlined text-[32px] text-on-surface-variant">hotel</span>
+<span class="font-title-md text-title-md font-semibold text-on-surface">Hotel</span>
+</div>
+</div>
+</div>
+<!-- Section 5: Amenities -->
+<div class="pt-6">
+<h3 class="font-title-md text-title-md font-semibold text-on-surface mb-1">Amenities</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">Popular amenities guests look for</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input checked="" class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">wifi</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Wifi</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input checked="" class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">skillet</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Kitchen</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">local_laundry_service</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Washer</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input checked="" class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">local_parking</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Free parking</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input checked="" class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">mode_fan</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Air conditioning</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">desk</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Dedicated workspace</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">pool</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Pool</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">hot_tub</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Hot tub</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">ev_charger</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">EV charger</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">crib</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Crib</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">bed</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">King bed</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-xl border border-surface-variant hover:border-on-surface transition-colors cursor-pointer amenity-pill">
+<input class="w-5 h-5 rounded text-primary focus:ring-primary border-outline-variant" type="checkbox"/>
+<span class="material-symbols-outlined text-[20px] text-on-surface-variant">fitness_center</span>
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Gym</span>
+</label>
+</div>
+</div>
+<!-- Section 6: Booking Options -->
+<div class="pt-6 space-y-4">
+<div>
+<h3 class="font-title-md text-title-md font-semibold text-on-surface mb-1">Booking options</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">Instant confirmations and flexible access</p>
+</div>
+<div class="flex items-center justify-between py-2">
+<div class="pr-4">
+<span class="block font-title-md text-title-md font-medium text-on-surface">Instant Book</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Listings you can book without waiting for host approval</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer flex-shrink-0">
+<input class="sr-only peer" type="checkbox"/>
+<div class="w-12 h-7 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-on-surface shadow-inner"></div>
+</label>
+</div>
+<div class="flex items-center justify-between py-2">
+<div class="pr-4">
+<span class="block font-title-md text-title-md font-medium text-on-surface">Self check-in</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Easy access to the property with keypad, smartlock, or lockbox</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer flex-shrink-0">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-12 h-7 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-on-surface shadow-inner"></div>
+</label>
+</div>
+<div class="flex items-center justify-between py-2">
+<div class="pr-4">
+<span class="block font-title-md text-title-md font-medium text-on-surface">Allows pets</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bringing a service animal or pet along on your vacation</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer flex-shrink-0">
+<input class="sr-only peer" type="checkbox"/>
+<div class="w-12 h-7 bg-surface-variant peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-on-surface shadow-inner"></div>
+</label>
+</div>
+</div>
+</div>
+<!-- Modal Footer (Sticky) -->
+<div class="sticky bottom-0 z-20 flex items-center justify-between px-6 sm:px-8 py-4 border-t border-surface-variant bg-surface-container-lowest">
+<button class="font-label-lg text-label-lg font-semibold text-on-surface underline hover:text-on-surface-variant transition-colors cursor-pointer py-2" id="clear-all-filters-btn" type="button">
+        Clear all
+      </button>
+<button class="px-7 py-3.5 rounded-xl bg-on-surface hover:bg-inverse-surface active:scale-95 text-on-primary font-label-lg text-label-lg font-semibold transition-all shadow-md cursor-pointer flex items-center gap-2" id="apply-filters-btn" type="button">
+<span>Show 1,000+ places</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Toast Feedback Notification -->
+<div class="fixed bottom-24 left-1/2 -translate-x-1/2 z-50 bg-inverse-surface text-inverse-on-surface px-5 py-3 rounded-full shadow-2xl flex items-center gap-2 text-sm font-medium transition-all duration-300 opacity-0 pointer-events-none translate-y-3" id="filter-toast">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">check_circle</span>
+<span id="toast-message">Filters updated: 1,000+ stays match your criteria</span>
+</div>
+<script>
+  const openFiltersBtn = document.getElementById('open-filters-btn');
+  const closeFiltersBtn = document.getElementById('close-filters-btn');
+  const filtersModal = document.getElementById('filters-modal-overlay');
+  const filtersBackdrop = document.getElementById('filters-backdrop');
+  const filtersDialog = document.getElementById('filters-dialog');
+  const applyFiltersBtn = document.getElementById('apply-filters-btn');
+  const clearAllFiltersBtn = document.getElementById('clear-all-filters-btn');
+  const toast = document.getElementById('filter-toast');
+  const activeFiltersBadge = document.getElementById('active-filters-badge');
+
+  function openModal() {
+    if (!filtersModal) return;
+    filtersModal.classList.remove('hidden');
+    filtersModal.classList.add('flex');
+    document.body.classList.add('overflow-hidden');
+    setTimeout(() => {
+      if (filtersBackdrop) filtersBackdrop.classList.remove('opacity-0');
+      if (filtersBackdrop) filtersBackdrop.classList.add('opacity-100');
+      if (filtersDialog) filtersDialog.classList.remove('scale-95', 'opacity-0');
+      if (filtersDialog) filtersDialog.classList.add('scale-100', 'opacity-100');
+    }, 10);
+  }
+
+  function closeModal() {
+    if (!filtersModal) return;
+    if (filtersBackdrop) {
+      filtersBackdrop.classList.remove('opacity-100');
+      filtersBackdrop.classList.add('opacity-0');
+    }
+    if (filtersDialog) {
+      filtersDialog.classList.remove('scale-100', 'opacity-100');
+      filtersDialog.classList.add('scale-95', 'opacity-0');
+    }
+    setTimeout(() => {
+      filtersModal.classList.remove('flex');
+      filtersModal.classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    }, 280);
+  }
+
+  function showToast(msg) {
+    if (!toast) return;
+    if (msg) document.getElementById('toast-message').textContent = msg;
+    toast.classList.remove('opacity-0', 'translate-y-3', 'pointer-events-none');
+    toast.classList.add('opacity-100', 'translate-y-0');
+    setTimeout(() => {
+      toast.classList.remove('opacity-100', 'translate-y-0');
+      toast.classList.add('opacity-0', 'translate-y-3', 'pointer-events-none');
+    }, 3500);
+  }
+
+  if (openFiltersBtn) openFiltersBtn.addEventListener('click', openModal);
+  if (closeFiltersBtn) closeFiltersBtn.addEventListener('click', closeModal);
+  if (filtersBackdrop) filtersBackdrop.addEventListener('click', closeModal);
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && filtersModal && !filtersModal.classList.contains('hidden')) {
+      closeModal();
+    }
+  });
+
+  if (applyFiltersBtn) {
+    applyFiltersBtn.addEventListener('click', () => {
+      closeModal();
+      if (activeFiltersBadge) activeFiltersBadge.classList.remove('hidden');
+      showToast('Filters applied! Displaying matching stays.');
+    });
+  }
+
+  const placeTypeBtns = document.querySelectorAll('.place-type-btn');
+  placeTypeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      placeTypeBtns.forEach(b => {
+        b.className = 'place-type-btn py-3 px-3 rounded-xl font-label-lg text-label-lg transition-all text-center cursor-pointer text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low';
+      });
+      btn.className = 'place-type-btn py-3 px-3 rounded-xl font-label-lg text-label-lg transition-all text-center cursor-pointer bg-surface-container-lowest text-on-surface shadow-sm font-semibold';
+    });
+  });
+
+  const pillRows = document.querySelectorAll('.count-pill-row');
+  pillRows.forEach(row => {
+    const pills = row.querySelectorAll('.count-pill');
+    pills.forEach(pill => {
+      pill.addEventListener('click', () => {
+        pills.forEach(p => {
+          p.className = 'count-pill py-2 px-4 rounded-full border border-surface-variant text-body-sm font-medium hover:border-on-surface transition-all cursor-pointer text-on-surface';
+        });
+        pill.className = 'count-pill py-2 px-4 rounded-full border border-on-surface text-body-sm font-medium transition-all cursor-pointer bg-on-surface text-surface-container-lowest';
+      });
+    });
+  });
+
+  const propCards = document.querySelectorAll('.prop-type-card');
+  propCards.forEach(card => {
+    card.addEventListener('click', () => {
+      const isSelected = card.classList.contains('border-2') && card.classList.contains('border-on-surface');
+      const icon = card.querySelector('.material-symbols-outlined');
+      if (isSelected) {
+        card.className = 'prop-type-card border border-surface-variant hover:border-on-surface rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all active:scale-[0.98]';
+        if (icon) {
+          icon.classList.remove('text-primary');
+          icon.classList.add('text-on-surface-variant');
+        }
+      } else {
+        card.className = 'prop-type-card border-2 border-on-surface bg-surface-container-low/40 rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all hover:border-on-surface active:scale-[0.98]';
+        if (icon) {
+          icon.classList.remove('text-on-surface-variant');
+          icon.classList.add('text-primary');
+        }
+      }
+    });
+  });
+
+  if (clearAllFiltersBtn) {
+    clearAllFiltersBtn.addEventListener('click', () => {
+      if (placeTypeBtns.length > 0) placeTypeBtns[0].click();
+      const minInput = document.getElementById('price-min');
+      const maxInput = document.getElementById('price-max');
+      if (minInput) minInput.value = '75';
+      if (maxInput) maxInput.value = '650';
+      pillRows.forEach(row => {
+        const firstPill = row.querySelector('.count-pill');
+        if (firstPill) firstPill.click();
+      });
+      propCards.forEach(card => {
+        card.className = 'prop-type-card border border-surface-variant hover:border-on-surface rounded-2xl p-4 flex flex-col justify-between h-32 cursor-pointer transition-all active:scale-[0.98]';
+        const icon = card.querySelector('.material-symbols-outlined');
+        if (icon) {
+          icon.classList.remove('text-primary');
+          icon.classList.add('text-on-surface-variant');
+        }
+      });
+      const checkboxes = document.querySelectorAll('#filters-dialog input[type="checkbox"]');
+      checkboxes.forEach(cb => {
+        cb.checked = false;
+      });
+      if (activeFiltersBadge) activeFiltersBadge.classList.add('hidden');
+      showToast('Filters cleared');
+    });
+  }
+</script>
+</body></html>
